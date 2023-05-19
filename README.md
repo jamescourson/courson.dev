@@ -1,8 +1,6 @@
-# courson.dev
+# courson.dev - a portfolio site
 
-## James Courson's portfolio site
-
-### Features
+## Features
 
 - Built using no frameworks or libraries.
 - Fully responsive.
