@@ -4,4 +4,4 @@
 ## Features
 
 - Built using no frameworks or libraries.
-- Fully responsive.
+- Fully responsive design.
