@@ -10,54 +10,7 @@ body {
   gap: 1em;
 }
 
-header {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-
-  border-bottom: 3px solid black;
-}
-
-header nav {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-evenly;
-  gap: 1em;
-  padding: .25em 1em;
-}
-
-header a {
-  color: black;
-  text-decoration: none;
-}
-
-header a:hover {
-  color: #0B6623;
-}
-
 main {
   display: block;
   padding: 1em;
-}
-
-footer {
-  display: flex;
-  flex-direction: column;
-  gap: 1em;
-  border-top: 3px solid black;
-}
-
-footer nav {
-  display: flex;
-  flex-direction: row;
-  gap: .5em;
-  padding: .25em 1em;
-}
-
-footer nav a {
-  display: inline-block;
-}
-
-footer nav a img {
-  width: 1.5em;
 }

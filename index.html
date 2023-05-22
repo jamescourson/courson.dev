@@ -11,42 +11,19 @@
     <link rel="icon" type="image/x-icon" href="/favicon.ico">
     <link rel="stylesheet" href="index.css">
 
-    <!-- Import templates -->
-    <link rel="import" href="templates/home.html">
-    <link rel="import" href="templates/about.html">
-    <link rel="import" href="templates/contact.html">
-    <link rel="import" href="template/resume.html">
-
-    <script src="index.js" defer></script>
+    <script src="./index.js" defer></script>
   </head>
 
   <body>
     <div id="app">
-      <header>
-        <a href="index.html" id="title"><h1>James Courson</h1></a>
-        <nav>
-          <a href="#">About</a>
-          <a href="#">Contact</a>
-          <a href="#">Resume</a>
-        </nav>
-      </header>
+      <shared-header></shared-header>
   
       <main>
-        <!-- Content is injected here via ./index.js -->
+        <h1>homepage</h1>
+        <p>welcome to james' portfolio site!</p>
       </main>
   
-      <footer>
-        <nav id="footer-links">
-          <a href="https://github.com/jamescourson">
-            <img src="assets/github-logo.svg" />
-          </a>
-          <a href="https://linkedin.com/in/jamescourson">
-            <img src="assets/linkedin-logo.svg" />
-          </a>
-        </nav>
-  
-        <span>&copy; James Courson 2023</span>
-      </footer>
+      <shared-footer></shared-footer>
     </div>
   </body>
 </html>
