@@ -1,3 +1,4 @@
+// Returns an HTMLElement object created from the html string at {filePath}
 async function getHTMLElementFromTemplateFile(filePath) {
   return await fetch(filePath)
     .then(res => res.text())
@@ -8,6 +9,7 @@ async function getHTMLElementFromTemplateFile(filePath) {
     });
 }
 
+// Web component definitions
 class SharedHeaderElement extends HTMLElement {
   connectedCallback() {
     const shadowRoot = this.attachShadow({ mode: 'open' });
@@ -24,5 +26,6 @@ class SharedFooterElement extends HTMLElement {
   }
 }
 
+// Define header and footer components from above objects
 customElements.define('shared-header', SharedHeaderElement);
 customElements.define('shared-footer', SharedFooterElement);
