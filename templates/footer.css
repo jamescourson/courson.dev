@@ -17,9 +17,6 @@ footer nav {
 }
 
 footer nav a {
-  display: inline-block;
-}
-
-footer nav a img {
   width: 1.618em;
+  height: 1.618em;
 }
