@@ -2,7 +2,7 @@ footer {
   display: flex;
   flex-flow: row wrap;
   justify-content: space-between;
-  align-items: flex-start;
+  align-items: center;
   gap: 1em;
 
   border-top: 3px solid black;

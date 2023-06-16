@@ -26,6 +26,5 @@ class SharedFooterElement extends HTMLElement {
   }
 }
 
-// Define web components from above objects
 customElements.define('shared-header', SharedHeaderElement);
 customElements.define('shared-footer', SharedFooterElement);
