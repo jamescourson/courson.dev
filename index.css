@@ -27,3 +27,12 @@ main {
   right: .5em;
   top: .5em;
 }
+
+a {
+  color: black;
+  font-weight: bold;
+}
+
+a:hover {
+  color: #0B6623;
+}
