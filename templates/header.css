@@ -1,4 +1,6 @@
 header {
+  font-family: Helvetica, sans-serif;
+  
   display: flex;
   flex-flow: row wrap;
   align-items: flex-end;
