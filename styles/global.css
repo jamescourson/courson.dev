@@ -19,16 +19,6 @@ main {
   font-family: monospace;
 }
 
-#settings-dialog {
-  position: relative;
-}
-
-#close-button {
-  position: absolute;
-  right: .5em;
-  top: .5em;
-}
-
 a {
   color: black;
   font-weight: bold;
