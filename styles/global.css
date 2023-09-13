@@ -2,6 +2,8 @@ body {
   font-family: monospace;
   font-size: 1.25em;
   margin: 0;
+
+  background-color: #EEEEEE;
 }
 
 #app {
@@ -29,6 +31,6 @@ a:hover {
 }
 
 *::selection {
-  color: white;
+  color: #EEEEEE;
   background-color: #0B6623;
 }
