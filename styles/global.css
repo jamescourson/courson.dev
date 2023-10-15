@@ -9,10 +9,13 @@ body {
 #app {
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
   gap: .25em 1em;
 
   padding: 1em;
+
+  background-image: url('/assets/background.png');
+
+  height: 100vh;
 }
 
 main {
