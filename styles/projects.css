@@ -1,15 +1,38 @@
 article {
+  display: flex;
+  flex-direction: column;
+  gap: 1em;
+}
+
+article h2 {
+  margin-bottom: 0;
+}
+
+article > a {
+  display: inline-flex;
+  flex-direction: column;
+  gap: 0.25em;
+  text-decoration: none;
+
   border-left: .25em solid #0B6623;
   padding-left: 1em;
-  margin-bottom: 1em;
+  padding: 1em;
 }
 
-section:last-child {
-  border-bottom: none;
-  margin-bottom: initial;
+article > a:hover {
+  background-color: rgba(0, 0, 0, 0.05);
 }
 
-article h3 small {
+article > a h3 {
+  margin: 0;
+}
+
+article > a small {
   font-weight: normal;
   font-style: italic;
+}
+
+article:last-child {
+  border-bottom: none;
+  margin-bottom: initial;
 }
