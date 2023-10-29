@@ -9,7 +9,7 @@ async function getHTMLElementFromTemplateFile(filePath) {
     });
 }
 
-// Web component definitions
+// Web component definitions and declarations
 class SharedHeaderElement extends HTMLElement {
   connectedCallback() {
     const shadowRoot = this.attachShadow({ mode: 'open' });
