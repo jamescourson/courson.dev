@@ -1,9 +1,13 @@
+html {
+  background-color: #EEEEEE;
+  background-image: url('/assets/background.png');
+}
+
 body {
   font-family: monospace;
   font-size: 1.25em;
   margin: 0;
-
-  background-color: #EEEEEE;
+  padding: 0;
 }
 
 #app {
@@ -12,10 +16,6 @@ body {
   gap: .25em 1em;
 
   padding: 1em;
-
-  background-image: url('/assets/background.png');
-
-  height: 100vh;
 }
 
 main {
