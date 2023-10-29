@@ -3,3 +3,7 @@ article {
   padding-left: 1em;
   margin-bottom: 1em;
 }
+
+section article:last-child {
+  margin-bottom: 0;
+}
