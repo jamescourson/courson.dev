@@ -12,8 +12,8 @@ header {
   font-size: 1.618rem;
 }
 
-header a {
-  text-decoration: none;
+header span {
+  font-weight: bold;
 }
 
 header nav {
@@ -25,6 +25,10 @@ header nav {
   font-size: .618em;
 }
 
+header nav a {
+  text-decoration: none;
+}
+
 /* Header title hover flair */
 
 @keyframes fadeIn {
@@ -32,7 +36,15 @@ header nav {
   to { opacity: 1; }
 }
 
-header > a small {
+header > span {
+  transition: color 150ms ease-in-out;
+}
+
+header > span:hover {
+  color: #0B6623;
+}
+
+header > span small {
   font-size: .618em;
   z-index: -1;
   position: relative;
@@ -43,7 +55,7 @@ header > a small {
               color 150ms ease-in-out;
 }
 
-header > a:hover small {
+header > span:hover small {
   color: #0B6623;
   left: 0;
 }
