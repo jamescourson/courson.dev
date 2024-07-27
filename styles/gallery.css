@@ -1,0 +1,51 @@
+main small {
+  font-style: italic;
+  font-weight: bold;
+}
+
+ul {
+  display: flex;
+  flex-direction: column;
+  list-style: none;
+  padding-left: 0;
+}
+
+article {
+  display: inline-flex;
+  flex-direction: column;
+  gap: 1em;
+  margin-bottom: 1em;
+}
+
+article h3 {
+  margin: 0;
+}
+
+article > a {
+  display: inline-flex;
+  flex-direction: column;
+  gap: 0.25em;
+  text-decoration: none;
+
+  border-left: .25em solid #0B6623;
+  padding-left: 1em;
+  padding: 1em;
+}
+
+article > a:hover {
+  background-color: rgba(0, 0, 0, 0.05);
+}
+
+article > a h3 {
+  margin: 0;
+}
+
+article > a small {
+  font-weight: normal;
+  font-style: italic;
+}
+
+article:last-child {
+  border-bottom: none;
+  margin-bottom: initial;
+}
