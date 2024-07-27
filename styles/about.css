@@ -1,9 +1,0 @@
-article {
-  border-left: .25em solid #0B6623;
-  padding-left: 1em;
-  margin-bottom: 1em;
-}
-
-section article:last-child {
-  margin-bottom: 0;
-}
