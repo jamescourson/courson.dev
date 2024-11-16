@@ -1,0 +1,58 @@
+.list-card {
+  display: inline-block;
+  background-color: rgba(11, 102, 35, 0.25);
+  border: 1px solid rgba(0, 0, 0, 0.35);
+  border-radius: .25em;
+}
+
+.list-card a {
+  margin: 1em;
+}
+
+.skill-list {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: flex-start;
+  gap: .5em;
+  margin-top: 1em;
+}
+
+.skill-list img {
+  width: 2em;
+  height: 2em;
+  padding: .75em;
+  border-radius: 2em;
+  background-color: rgba(0, 0, 0, 0.2);
+  transition: background-color 300ms ease;
+}
+
+.skill-list img:hover {
+  background-color: rgba(0, 0, 0, 0.25);
+}
+
+#edu-list {
+  display: inline-flex;
+  flex-direction: column;
+  gap: 1em;
+}
+
+article ul, #edu-list {
+  padding: 0;
+  list-style-type: none;
+}
+
+article ul li a, #edu-list li a {
+  text-decoration: none;
+}
+
+.list-card a, #current-role, #past-roles ul li a {
+  display: block;
+  position: relative;
+}
+
+.title-date-spaced {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: 1em;
+}

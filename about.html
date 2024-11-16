@@ -13,6 +13,7 @@
 
     <link rel="icon" type="image/x-icon" href="/favicon.ico">
     <link rel="stylesheet" href="./styles/global.css">
+    <link rel="stylesheet" href="./styles/about.css">
 
     <script src="./index.js" defer></script>
   </head>
@@ -23,52 +24,112 @@
   
       <main>
         <h1>About Me</h1>
-        
-        <section id="dev">
-          <h2>Development</h2>
-          <p>
-            My goal is to instill <b>functionality, quality, and simplicity</b> into everything I create.
-            <br>
-            I spend time <b>revising and reiterating</b> my work in order to learn and hone my skillset.
-          </p>
-  
-          <article>
-            <h3>Web</h3>
-            <ul>
-              <li>I'm familiar with maintaining <b>Angular, React, and Vue</b> applications.</li>
-              <li>I have experience managing cloud-based services with <b>AWS</b>, and am currently working toward a <a href="https://aws.amazon.com/certification/certified-cloud-practitioner/" target="_blank">Cloud Practitioner</a> certification.</li>
-            </ul>
-          </article>
-
-          <article>
-            <h3>Software</h3>
-            <ul>
-              <li>I'm comfortable working with <b>.NET, Java, and Python</b> environments.</li>
-              <li>I obtained an <a href="https://education.oracle.com/oracle-certified-associate-java-se-8-programmer/trackp_333" target="_blank">Oracle Associate Programmer</a> certification for Java SE 8 in 2019.</li>
-            </ul>
-          </article>
-        </section>
+        <p><em>An overview of my skills and experience.</em></p>
 
         <section>
-          <h2>Experience</h2>
-          <ul>
-            <li>
-              <h3>InfoBate - <em>Software Developer (September 2020 - present)</em></h3>
-            </li>
-            <li>
-              <h3>CGI - <em>Software Developer Consultant (June 2019 - September 2020)</em></h3>
-              <p></p>
-            </li>
-          </ul>
-          <em>More details can be found on <b>my resume</b>: (<a href="assets/resume.pdf">pdf</a> | <a href="assets/resume.docx">docx</a>).</em>
+          <h2>Professional Experience</h2>
+          <article id="current-role">
+            <h3><em>Current Role</em></h3>
+            <ul>
+              <li class="list-card">
+                <a href="https://infobate.com">
+                  <div class="title-date-spaced">
+                    <span>InfoBate</span>
+                    <em>(September 2020 - present)</em>
+                  </div>
+
+                  <span><em>Software Developer</em></span>
+
+                  <div class="skill-list">
+                    <img src="./assets/icons/aws.svg" alt="AWS"/>
+                    <img src="./assets/icons/d3.svg" alt="D3.js">
+                    <img src="./assets/icons/git.svg" alt="Git">
+                    <img src="./assets/icons/dotnet.svg" alt=".NET"/>
+                    <img src="./assets/icons/mui.svg" alt="Material UI">
+                    <img src="./assets/icons/nodejs.svg" alt="NodeJS">
+                    <img src="./assets/icons/postgres.svg" alt="PostgreSQL">
+                    <img src="./assets/icons/python.svg" alt="Python">
+                    <img src="./assets/icons/react.svg" alt="React"/>
+                  </div>
+                </a>
+              </li>
+            </ul>
+          </article>
+
+          <article id="past-roles">
+            <h3><em>Past Roles</em></h3>
+            <ul>
+              <li class="list-card">
+                <a href="https://cgi.com">
+                  <div class="title-date-spaced">
+                    <span>CGI</span>
+                    <em>(June 2019 - September 2020)</em>
+                  </div>
+
+                  <span><em>Software Developer Consultant</em></span>
+                  
+                  <div class="skill-list">
+                    <img src="./assets/icons/angular.svg" alt="AWS"/>
+                    <img src="./assets/icons/git.svg" alt="Git">
+                    <img src="./assets/icons/java.svg" alt="Java"/>
+                    <img src="./assets/icons/nodejs.svg" alt="NodeJS"/>
+                    <img src="./assets/icons/python.svg" alt="Python">
+                    <img src="./assets/icons/react.svg" alt="React"/>
+                    <img src="./assets/icons/swagger.svg" alt="Swagger">
+                  </div>
+                </a>
+              </li>
+            </ul>
+          </article>
+          <em>More details on each role can be found on <b>my resume</b>: (<a href="assets/resume.pdf">pdf</a> | <a href="assets/resume.docx">docx</a>).</em>
         </section>
 
         <section>
           <h2>Education</h2>
-          <ul>
-            <li>I completed <a href="https://www.techelevator.com/" target="_blank"><b>Tech Elevator</b></a>'s <b>.NET curriculum</b> in April 2019.</li>
-            <li>I also attended <a href="https://www.psu.edu/" target="_blank"><b>Pennsylvania State University</b></a> for <b>Computer Science</b> between August 2017 and October 2018.</li>
-          </ul>
+
+          <article>
+            <ul id="edu-list">
+              <li class="list-card">
+                <a href="https://techelevator.com">
+                  <div class="title-date-spaced">
+                    <span>Tech Elevator</span>
+                    <span>(2018 - 2019)</span>
+                  </div>
+                  <span>C#.NET Curriculum - Technical Diploma</span>
+  
+                  <div class="skill-list">
+                    <img src="./assets/icons/azure.svg" alt="Azure">
+                    <img src="./assets/icons/git.svg" alt="Git">
+                    <img src="./assets/icons/mysql.svg" alt="MySQL">
+                    <img src="./assets/icons/dotnet.svg" alt=".NET"/>
+                    <img src="./assets/icons/python.svg" alt="Python">
+                    <img src="./assets/icons/selenium.svg" alt="Selenium"/>
+                    <img src="./assets/icons/vue.svg" alt="VueJS">
+                  </div>
+                </a>
+              </li>
+              
+              <li class="list-card">
+                <a href="https://psu.edu">
+                  <div class="title-date-spaced">
+                    <span>Pennsylvania State University</span>
+                    <span>(2017 - 2018)</span>
+                  </div>
+                  <span>Computer Science</span>
+  
+                  <div class="skill-list">
+                    <img src="./assets/icons/cpp.svg" alt="C++"/>
+                    <img src="./assets/icons/css3.svg" alt="CSS3">
+                    <img src="./assets/icons/git.svg" alt="Git">
+                    <img src="./assets/icons/html5.svg" alt="HTML5">
+                    <img src="./assets/icons/js.svg" alt="JavaScript">
+                    <img src="./assets/icons/python.svg" alt="Python">
+                    <img src="./assets/icons/react.svg" alt="React"/>
+                  </div>
+                </a>
+              </li>
+            </ul>
+          </article>
         </section>
       </main>
   
