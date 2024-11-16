@@ -13,7 +13,12 @@ header {
 }
 
 header span {
-  font-weight: bold;
+  font-family: 'Dilemma';
+  font-size: 5vmin;
+}
+
+header span small {
+  font-family: 'Open Sans', monospace;
 }
 
 header nav {
