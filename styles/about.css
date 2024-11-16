@@ -13,7 +13,7 @@
 
 .list-card {
   display: inline-block;
-  background-color: rgba(11, 102, 35, 0.25);
+  background-color: rgba(11, 102, 35, 0.15);
   border: 1px solid rgba(0, 0, 0, 0.35);
   border-radius: .25em;
 }
@@ -34,13 +34,15 @@
   width: 2em;
   height: 2em;
   padding: .75em;
-  border-radius: 2em;
-  background-color: rgba(0, 0, 0, 0.2);
-  transition: background-color 300ms ease;
+  border-radius: 50%;
+  background-color: rgba(0, 0, 0, 0.025);
+  box-shadow: rgba(0, 0, 0, 0.2) 0px 5px 15px;
+  transition: box-shadow 200ms ease, background-color 200ms ease;
 }
 
 .skill-list img:hover {
-  background-color: rgba(0, 0, 0, 0.25);
+  background-color: rgba(0, 0, 0, 0.1);
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 5px 15px;
 }
 
 #edu-list {
