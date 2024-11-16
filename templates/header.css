@@ -28,6 +28,12 @@ header span {
   }
 }
 
+@media screen and (max-width: 512px) {
+  header span {
+    font-size: 3vmax;
+  }
+}
+
 header span small {
   font-family: 'Open Sans', monospace;
 }
