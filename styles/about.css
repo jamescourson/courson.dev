@@ -63,12 +63,3 @@
   padding: 0;
   list-style-type: none;
 }
-
-article ul li a, #edu-list li a {
-  text-decoration: none;
-}
-
-.list-card a, #current-role, #past-roles ul li a {
-  display: block;
-  position: relative;
-}
