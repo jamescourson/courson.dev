@@ -30,6 +30,8 @@ article > a {
   border-left: .25em solid #0B6623;
   padding-left: 1em;
   padding: 1em;
+
+  transition: background-color 200ms ease;
 }
 
 article > a:hover {
