@@ -1,7 +1,7 @@
 #skill-hover-label {
   display: inline;
   visibility: hidden;
-  position: absolute;
+  position: fixed;
   top: 1em;
   right: 1em;
   border-left: 2px solid black;
