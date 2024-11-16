@@ -13,7 +13,6 @@ header {
 }
 
 header span {
-  color: #0E2B54;
   font-family: 'Dilemma';
   font-size: 5vmin;
 }
@@ -44,6 +43,10 @@ header nav a {
 
 header > span {
   transition: color 150ms ease-in-out;
+}
+
+header > span:hover {
+  color: #0E2B54;
 }
 
 header > span small {
