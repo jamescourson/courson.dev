@@ -14,7 +14,18 @@ header {
 
 header span {
   font-family: 'Dilemma';
-  font-size: 5vmin;
+}
+
+@media screen and (min-width: 768px) {
+  header span {
+    font-size: 4vmin;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  header span {
+    font-size: 4vmax;
+  }
 }
 
 header span small {
