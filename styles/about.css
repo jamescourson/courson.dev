@@ -8,7 +8,9 @@
   border-bottom: 2px solid black;
   padding: 1em;
   font-weight: bold;
-  background-color: rgba(11, 102, 35, 0.15);
+  background-color: #EEEEEE;
+  background-image: url('/assets/background.png');
+  z-index: 2;
 }
 
 .list-card {
