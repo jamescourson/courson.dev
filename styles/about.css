@@ -33,7 +33,8 @@
 }
 
 .skill-list {
-  display: flex;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
   flex-flow: row wrap;
   justify-content: flex-start;
   gap: .5em;
@@ -64,8 +65,4 @@
 #current-role ul, #past-roles ul, #edu-list {
   padding: 0;
   list-style-type: none;
-}
-
-#other-skills {
-  display: inline-block;
 }
