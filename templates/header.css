@@ -48,6 +48,7 @@ header nav {
 }
 
 header nav a {
+  font-style: italic;
   text-decoration: none;
 }
 
