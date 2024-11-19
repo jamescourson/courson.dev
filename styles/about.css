@@ -13,6 +13,12 @@
   z-index: 2;
 }
 
+#role-list, #edu-list {
+  display: inline-flex;
+  flex-flow: row wrap;
+  gap: 1em;
+}
+
 .list-card {
   display: inline-block;
   background-color: rgba(11, 102, 35, 0.15);
@@ -60,12 +66,6 @@
 .skill-list img:hover {
   background-color: rgba(255, 255, 255, 0.55);
   box-shadow: rgba(0, 0, 0, 0.25) 0px 5px 15px;
-}
-
-#edu-list {
-  display: inline-flex;
-  flex-direction: column;
-  gap: 1em;
 }
 
 #current-role ul, #past-roles ul, #edu-list {
