@@ -15,3 +15,12 @@ footer nav {
   gap: .5em;
   padding: .25em 0;
 }
+
+footer small {
+  margin-left: auto;
+  font-size: .6em;
+}
+
+footer #knight {
+  font-size: 1.25em;
+}
