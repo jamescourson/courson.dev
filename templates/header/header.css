@@ -14,6 +14,7 @@ header {
 
 header span {
   font-family: 'Dilemma';
+  text-shadow: rgba(14, 43, 84, 0.3) 1px 1px;
 }
 
 @media screen and (min-width: 768px) {
@@ -36,6 +37,7 @@ header span {
 
 header span small {
   font-family: 'Open Sans', monospace;
+  text-shadow: none;
 }
 
 header nav {
@@ -60,11 +62,13 @@ header nav a {
 }
 
 header > span {
-  transition: color 150ms ease-in-out;
+  transition: color 150ms ease-in-out,
+              text-shadow 150ms ease-in-out;
 }
 
 header > span:hover {
   color: #0E2B54;
+  text-shadow: rgba(10, 10, 10, 0.3) 1px 1px;
 }
 
 header > span small {
