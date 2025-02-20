@@ -52,6 +52,10 @@ header nav a {
   text-decoration: none;
 }
 
+header nav #day-night-toggle span {
+  font-size: inherit;
+}
+
 /* Header title hover flair */
 
 @keyframes fadeIn {
