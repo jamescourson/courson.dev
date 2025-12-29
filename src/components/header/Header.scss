@@ -1,0 +1,12 @@
+
+header {
+  display: flex;
+  flex-direction: column;
+  gap: .5em;
+
+  #name {
+    font-family: 'Joan', sans-serif;
+    font-size: 2em;
+    font-weight: bold;
+  }
+}

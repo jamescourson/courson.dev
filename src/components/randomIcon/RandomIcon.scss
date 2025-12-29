@@ -1,0 +1,8 @@
+.random-icon {
+  width: 1em;
+
+  &::selection {
+    color: black;
+    background-color: white;
+  }
+}
