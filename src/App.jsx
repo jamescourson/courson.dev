@@ -20,11 +20,7 @@ function App() {
   return (
     <BrowserRouter>
       <Header />
-
-      <main>
-        <Router />
-      </main>
-
+      <Router />
       <Footer />
     </BrowserRouter>
   );

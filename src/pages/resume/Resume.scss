@@ -1,0 +1,35 @@
+#page-resume {
+  
+  h1 {
+    margin-bottom: 0;
+  }
+  
+  #resume-downloads {
+    margin-bottom: .5em; 
+  
+    a {
+      color: #0B6623;
+  
+      &:hover {
+        color: rgba(11, 102, 35, 0.8);
+      }
+    }
+  }
+  
+  section {
+    margin-bottom: 2em;
+  }
+  
+  #past-companies div {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: flex-start;
+    align-items: baseline;
+    gap: .5em;
+  
+    img {
+      height: 24px;
+    }
+  }
+}
+

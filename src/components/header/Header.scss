@@ -6,7 +6,19 @@ header {
 
   #name {
     font-family: 'Joan', sans-serif;
-    font-size: 2em;
+    font-size: 2.25em;
     font-weight: bold;
+
+    small {
+      color: rgba(11, 102, 35, 1);
+
+      font-family: 'JetBrains Mono', monospace;
+      font-size: .35em;
+
+      &:hover {
+        color: rgba(11, 102, 35, 0.75);
+        transition: 150ms ease;
+      }
+    }
   }
 }

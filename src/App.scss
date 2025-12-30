@@ -1,8 +1,20 @@
-main {
+#root {
+  padding: 1em;
   font-family: 'Rubik', sans-serif;
-  
-  h1 {
+
+  h1, h2, h3 {
     font-family: 'Joan', sans-serif;
   }
+}
+
+.article-divider {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: flex-start;
+}
+
+hr.hr-partial {
+  max-width: 25em;
+  margin-left: 0;
 }
 
