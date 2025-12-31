@@ -3,6 +3,10 @@
 @import url('https://fonts.cdnfonts.com/css/jetbrains-mono-2');
 
 
+body {
+  background-image: url('cardboard-flat.png');
+}
+
 *::selection {
   color: floralwhite;
   background-color: #0B6623;

@@ -2,6 +2,12 @@ const About = () => {
   return (
     <main id="page-about">
       <h1>About Me</h1>
+      <hr className="hr-partial" />
+
+      <article>
+        <h2>Favorite Color</h2>
+        <b>#0B6623</b>
+      </article>
 
       <article>
         <h2>Likes and Dislikes</h2>

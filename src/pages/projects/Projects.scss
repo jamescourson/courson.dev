@@ -1,43 +1,69 @@
 #page-projects {
+  display: inline-flex;
+  flex-direction: column;
+  gap: 1em;
+
   h1 {
     margin-bottom: 0;
   }
 
+  a {
+    text-decoration: none;
+  }
+
   article {
-    display: inline-flex;
+    display: flex;
     flex-direction: column;
     justify-content: flex-start;
 
-    p {
-      background-image: url('public/background.png');
-      background-repeat: repeat;
+    max-width: 400px;
 
-      padding: .5em;
-      border-radius: .25em;
+    background-image: url('background.png');
+    background-repeat: repeat;
+    
+    border: 1px solid black;
+    border-radius: .25em;
+    
+    // https://getcssscan.com/css-box-shadow-examples - #29 by Material
+    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+    
+    .project-header {
+      display: inline-block;
+      
+      border-bottom: 1px solid black;
 
-      // https://getcssscan.com/css-box-shadow-examples - #29 by Material
-      box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+      h2 {
+        text-align: center;
+      }
     }
 
-    #jg-logo {
-      display: inline-block;
+    p {
+      padding: 0 1em;
+    }
+  }
+
+  #project-jg {
+    color: honeydew;
+    background-color: rgba(11, 102, 35, 1);
+
+    .project-header {
+      height: 3.5em;
+
+      background-color: rgba(11, 102, 35, 1);
+      background-image: url('jamesguide.png');
+      background-position: center;
+      background-size: 82.5%;
+      background-repeat: no-repeat;
+    }
+    
+    &:hover {
       background-color: rgba(11, 102, 35, 0.9);
-
-      border: 1px solid black;
-      border-radius: .5em;
+      transition: 150ms ease;
       
-      img {
-        max-height: 36px;
-        padding: .5em 1em;
-        margin: 0 auto;
-      }
-
-      &:hover {
-        // https://getcssscan.com/css-box-shadow-examples - #31 by Material
-        box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
-        
-        background-color: rgba(11, 102, 35, 0.95);
-        transition: 150ms ease-in;
+      .project-header {
+        background-color: rgba(11, 102, 35, 0.9);
+        background-size: 85%;
+        transition: 150ms ease;
       }
     }
   }

@@ -8,7 +8,7 @@ const Footer = () => {
 
   return (
     <>
-      <hr />
+      <hr id="hr-footer" />
       <footer>
         <span>&copy; James Courson 2026</span>
         <RandomIcon />

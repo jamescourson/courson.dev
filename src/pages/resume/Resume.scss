@@ -1,7 +1,14 @@
 #page-resume {
+  display: flex;
+  flex-direction: column;
+  gap: 1em;
   
-  h1 {
+  h1, hr {
     margin-bottom: 0;
+  }
+
+  img {
+    margin-bottom: .25em;
   }
   
   #resume-downloads {
@@ -15,21 +22,49 @@
       }
     }
   }
-  
-  section {
-    margin-bottom: 2em;
+
+  #resume-introduction {
+    h2 {
+      margin-bottom: .125em;
+    }
+  }
+
+  #current-role div {
+    display: block;
+    max-width: 320px;
+
+    border: 1px solid black;
+    border-radius: .25em;
+    padding: .5em;
+
+    color: honeydew;
+    background-color: rgba(11, 102, 35, 1);
+    background-image: url('background.png');
   }
   
-  #past-companies div {
+  #past-roles div {
     display: flex;
     flex-flow: row wrap;
     justify-content: flex-start;
     align-items: baseline;
     gap: .5em;
   
-    img {
-      height: 24px;
+    article {
+      display: block;
+      max-width: 320px;
+
+      border: 1px solid black;
+      border-radius: .25em;
+      padding: .5em;
+
+      background-color: rgba(225, 25, 55, 0.35);
+      background-image: url('background.png');
+      
+      img {
+        height: 24px;
+      }
     }
+    
   }
 }
 
