@@ -16,8 +16,8 @@ const Resume = () => (
       <h2>Technical Strengths</h2>
     
       <ul>
+        <li>Years of experience with <b>complex UI design</b> and front-end tooling</li>
         <li>Expertise in <b>HTML, CSS, and JavaScript</b></li>
-        <li>Years of experience with <b>complex UI design in React</b></li>
         <li>Familiarity with <b>AWS core services</b> and cloud-based development</li>
         <li>A strong focus on <b>clean, maintainable code</b></li>
       </ul>
@@ -49,7 +49,7 @@ const Resume = () => (
               <span><b>Consultant</b> at CGI</span><br />
               <em>June 2019 - August 2020</em><br />
               <span>🖈 Pittsburgh, PA, USA</span><br />
-              <code>Java, Maven, Angular</code>
+              <code>Java 8, Maven, Angular</code>
             </article>
           </div>
         </div>

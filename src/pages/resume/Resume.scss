@@ -22,14 +22,16 @@
     }
   }
 
-  #resume-strengths ul {
-    list-style-type: square;
+  #resume-strengths {
+    ul {
+      list-style-type: square;
 
-    display: flex;
-    flex-direction: column;
-    gap: 1em;
+      display: flex;
+      flex-direction: column;
+      gap: 1em;
 
-    margin-bottom: 2em;
+      margin-bottom: 2em;
+    }
   }
 
   #current-role, #past-roles, #resume-education {
@@ -50,7 +52,7 @@
   #roles-list > * {
     box-sizing: border-box;
     width: 320px;
-    @media (max-width: 768px) {
+    @media (max-width: 640px) {
       width: 100%;
     }
   }
