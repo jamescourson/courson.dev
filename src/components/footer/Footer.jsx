@@ -1,11 +1,21 @@
+import { useEffect, useState } from 'react';
 import RandomIcon from '../randomIcon/RandomIcon';
 
 import './Footer.scss';
 
 
+const defaultVersion = 'v0.0.0';
+
 const Footer = () => {
-  const versionNumber = import.meta.env.VITE_APP_VERSION;
+  const [version, setVersion] = useState(defaultVersion);
   const lastUpdated = new Date().toLocaleString();
+
+  useEffect(() => {
+    fetch('version.txt')
+      .then(res => res.text())
+      .then(text => setVersion(text.trim()))
+      .catch(() => setVersion(defaultVersion))
+  }, []);
 
   return (
     <>
@@ -15,7 +25,7 @@ const Footer = () => {
         <div>
           <span>&copy; James Courson 2026</span>
           <RandomIcon />
-          <b>v{versionNumber}</b>
+          <b>{version}</b>
         </div>
       </footer>
     </>
