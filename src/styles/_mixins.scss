@@ -1,0 +1,32 @@
+@mixin card {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+
+  box-sizing: border-box;
+  width: 320px;
+  @media (max-width: 768px) {
+    width: 100%;
+  }
+
+  background-image: url('../../public/paper.png');
+  background-repeat: repeat;
+
+  border: 1px solid black;
+  border-radius: .25em;
+
+  padding: 1em;
+  
+  // https://getcssscan.com/css-box-shadow-examples - #29 by Material
+  box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+
+  img {
+    height: 48px;
+    
+    object-fit: contain;
+
+    margin-right: auto;
+    margin-bottom: .25em;
+  }
+}
+

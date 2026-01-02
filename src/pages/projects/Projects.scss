@@ -1,3 +1,6 @@
+@use '../../styles/mixins';
+@use '../../styles/colors' as *;
+
 #page-projects {
   display: inline-flex;
   flex-direction: column;
@@ -12,20 +15,13 @@
   }
 
   article {
+    @include mixins.card;
+
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
 
-    max-width: 400px;
-
-    background-image: url('background.png');
-    background-repeat: repeat;
-    
-    border: 1px solid black;
-    border-radius: .25em;
-    
-    // https://getcssscan.com/css-box-shadow-examples - #29 by Material
-    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+    padding: 0;
     
     .project-header {
       display: inline-block;
@@ -50,7 +46,7 @@
       height: 3.5em;
 
       background-color: rgba(11, 102, 35, 1);
-      background-image: url('jamesguide.png');
+      background-image: url('jg-logo.png');
       background-position: center;
       background-size: 82.5%;
       background-repeat: no-repeat;

@@ -1,3 +1,6 @@
+@use '../../styles/mixins';
+@use '../../styles/colors' as *;
+
 #page-resume {
   display: flex;
   flex-direction: column;
@@ -5,10 +8,6 @@
   
   h1, hr {
     margin-bottom: 0;
-  }
-
-  img {
-    margin-bottom: .25em;
   }
   
   #resume-downloads {
@@ -23,48 +22,72 @@
     }
   }
 
-  #resume-introduction {
-    h2 {
-      margin-bottom: .125em;
+  #resume-strengths ul {
+    list-style-type: square;
+
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+
+    margin-bottom: 2em;
+  }
+
+  #current-role, #past-roles, #resume-education {
+    article {
+      @include mixins.card;
+      display: block;
     }
   }
 
-  #current-role div {
-    display: block;
-    max-width: 320px;
-
-    border: 1px solid black;
-    border-radius: .25em;
-    padding: .5em;
-
-    color: honeydew;
-    background-color: rgba(11, 102, 35, 1);
-    background-image: url('background.png');
-  }
-  
-  #past-roles div {
+  #roles-list, #past-roles div, #resume-education div {
     display: flex;
     flex-flow: row wrap;
     justify-content: flex-start;
     align-items: baseline;
-    gap: .5em;
-  
-    article {
-      display: block;
-      max-width: 320px;
+    gap: 1em;
+  }
 
-      border: 1px solid black;
-      border-radius: .25em;
-      padding: .5em;
+  #roles-list > * {
+    box-sizing: border-box;
+    width: 320px;
+    @media (max-width: 768px) {
+      width: 100%;
+    }
+  }
 
+  #resume-experience {
+    h2 {
+      margin-bottom: 0;
+    }
+
+    #role-infobate {
+      color: $text-dark;
+      background-color: $green-solid;
+    }
+
+    #role-cgi {
       background-color: rgba(225, 25, 55, 0.35);
-      background-image: url('background.png');
-      
+    }
+
+    .hr-partial {
+      margin-top: 2em;
+    }
+  }
+
+  #resume-education {
+    article {
       img {
-        height: 24px;
+        margin-bottom: .5em;
       }
     }
-    
+
+    #education-te {
+      background-color: rgba(0, 172, 241, 0.5);
+    }
+
+    #education-psu {
+      background-color: rgba(30, 64, 124, 0.65);
+    }
   }
 }
 

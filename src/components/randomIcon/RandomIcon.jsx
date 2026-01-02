@@ -1,28 +1,18 @@
 import { useEffect, useState } from "react";
+import getNewRandomElement from "../../util/getNewRandomElement";
 
 import './RandomIcon.scss';
 
 
-const randomIcons = [
+const icons = [
   '⨏', '⫳', '⌽', '⌀', '⎅',
   '⎈', '⏣', '⍙', '☄', '☀',
   '⚒', '♨', '♘', '⏆'
 ]
 
-// returns a random icon, avoiding repeats
-const getRandomIcon = (currentIcon = '') =>{
-  let randomIcon;
-
-  do {
-    randomIcon = randomIcons[Math.floor(Math.random() * randomIcons.length)];
-  } while (randomIcon === currentIcon);
-
-  return randomIcon;
-}
-
 const RandomIcon = ({}) => {
-  const [icon, setIcon] = useState(getRandomIcon());
-  const cycleIcon = () => setIcon(getRandomIcon(icon));
+  const [icon, setIcon] = useState(getNewRandomElement(icons, undefined));
+  const cycleIcon = () => setIcon(getNewRandomElement(icons, icon));
 
   // icon auto-cycles every 10 seconds
   let iconInterval;
@@ -38,8 +28,7 @@ const RandomIcon = ({}) => {
   });
 
   const handleClick = () => {
-    // cycle icon
-    setIcon(getRandomIcon(icon));
+    cycleIcon();
 
     // reset interval
     clearInterval(iconInterval);

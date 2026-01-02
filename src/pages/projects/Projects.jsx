@@ -19,8 +19,8 @@ const Projects = () => (
               <em>
                 Currently focused on <b>woodworking</b> and <b>hand tools</b>. <br />
                 <br />
-                Future plans include <b>design</b> and <b>development</b> sections,
-                a <b>project gallery</b>, and a <b>design/build/restoration log</b>.<br />
+                Future plans include a <b>project gallery</b>&nbsp;
+                and a <b>design/build/restoration log</b>.<br />
                 Open source. Built on React and React Router.
               </em>
             </small>
@@ -30,7 +30,7 @@ const Projects = () => (
     </section>
 
     <section>
-      <h1>Upcoming</h1>
+      <h1>Upcoming Projects</h1>
       <hr className='hr-partial' />
 
       <article>
