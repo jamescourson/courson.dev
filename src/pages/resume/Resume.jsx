@@ -1,4 +1,7 @@
+import { Link } from 'react-router';
+
 import './Resume.scss';
+
 
 const Resume = () => (
   <main id="page-resume">
@@ -88,7 +91,7 @@ const Resume = () => (
     </div>
     
     <small>
-      <a href="https://github.com/jamescourson/courson.dev/code/src/components/Resume.jsx">View source</a>
+      <Link to="https://github.com/jamescourson/courson.dev/blob/master/src/pages/resume/Resume.jsx" target="_blank">View source</Link>
     </small>
   </main>
 );
