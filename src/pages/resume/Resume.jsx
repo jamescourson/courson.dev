@@ -2,7 +2,7 @@ import './Resume.scss';
 
 const Resume = () => (
   <main id="page-resume">
-    <section id="resume-header">
+    <hgroup>
       <h1>Resume</h1>
       <em id="resume-downloads">
         One-page downloads 🠚&nbsp;
@@ -10,6 +10,11 @@ const Resume = () => (
         <a href="#">.docx</a>
       </em>
       <hr className='hr-partial' />
+    </hgroup>
+
+    <section id="resume-header">
+      <b>James Courson</b><br />
+      <em>A capable and diligent software developer</em>
     </section>
 
     <section id="resume-strengths">
@@ -17,16 +22,15 @@ const Resume = () => (
     
       <ul>
         <li>Years of experience with <b>complex UI design</b> and front-end tooling</li>
-        <li>Expertise in <b>HTML, CSS, and JavaScript</b></li>
-        <li>Familiarity with <b>AWS core services</b> and cloud-based development</li>
-        <li>A strong focus on <b>clean, maintainable code</b></li>
+        <li>Extensive knowledge of <b>HTML, CSS, and JavaScript</b></li>
+        <li>Proficiency with <b>AWS core services</b> and cloud-based development</li>
+        <li>A strong focus on <b>clean, maintainable code and markup</b></li>
       </ul>
-
-      <hr className='hr-partial' />
     </section>
 
     <section id="resume-experience">
       <h2>Professional Experience</h2>
+      <p>I have a total of <b>6 years</b> of professional software development experience.</p>
 
       <div id="roles-list">
         <div id="current-role">
@@ -36,8 +40,8 @@ const Resume = () => (
             <img src="infobate.png" alt="InfoBATE" /><br />
             <span><b>Developer</b> at InfoBATE</span><br />
             <em>September 2020 - present</em><br />
-            <span>🖈 Pittsburgh, PA, USA (Remote)</span><br />
-            <code>AWS, React-admin, PostgREST</code>
+            <span>Pittsburgh, PA, USA (Remote)</span><br />
+            <code>🛠 AWS, React-admin, PostgREST</code>
           </article>
         </div>
 
@@ -48,34 +52,35 @@ const Resume = () => (
               <img src="cgi.svg" alt="CGI" /><br />
               <span><b>Consultant</b> at CGI</span><br />
               <em>June 2019 - August 2020</em><br />
-              <span>🖈 Pittsburgh, PA, USA</span><br />
-              <code>Java 8, Maven, Angular</code>
+              <span>Pittsburgh, PA, USA</span><br />
+              <code>🛠 Java 8, Maven, Angular</code>
             </article>
           </div>
         </div>
       </div>
-
-      <hr className='hr-partial' />
     </section>
 
     <section id="resume-education">
       <h2>Education</h2>
+      <p>
+        I obtained a technical diploma from <b>Tech Elevator</b> in April of 2019.
+      </p>
 
       <div>
         <article id="education-te">
           <img src="te-logo.png" alt="Tech Elevator" /><br />
           <span><b>.NET Curriculum</b> at Tech Elevator</span><br />
           <em>December 2018 - April 2019</em><br />
-          <span>🖈 Pittsburgh, PA, USA</span><br />
-          <code>C#.NET, Azure, Vue.js</code>
+          <span>Pittsburgh, PA, USA</span><br />
+          <code>🛠 C#.NET, Azure, Vue.js</code>
         </article>
 
         <article id="education-psu">
           <img src="psu-logo.png" alt="Penn State University" /><br />
           <span><b>Computer Science</b> at Penn State</span><br />
           <em>September 2017 - December 2019</em><br />
-          <span>🖈 Erie, PA, USA</span><br />
-          <code>C++, Python, JavaScript</code>
+          <span>Erie, PA, USA</span><br />
+          <code>🛠 C++, Python, JavaScript</code>
         </article>
       </div>
     </section>

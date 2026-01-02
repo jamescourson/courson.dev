@@ -6,8 +6,10 @@
   flex-direction: column;
   gap: 1em;
   
-  h1, hr {
-    margin-bottom: 0;
+  hgroup {
+    h1, hr {
+      margin-bottom: 0;
+    }
   }
   
   #resume-downloads {
@@ -22,22 +24,33 @@
     }
   }
 
+  #resume-header {
+    b {
+      font-size: 1.25em;
+    }
+  }
+
   #resume-strengths {
     ul {
-      list-style-type: square;
-
       display: flex;
       flex-direction: column;
       gap: 1em;
-
-      margin-bottom: 2em;
     }
   }
 
   #current-role, #past-roles, #resume-education {
     article {
       @include mixins.card;
-      display: block;
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-start;
+
+      height: 180px;
+
+      code {
+        margin-top: auto;
+        margin-bottom: 0;
+      }
     }
   }
 
@@ -46,7 +59,7 @@
     flex-flow: row wrap;
     justify-content: flex-start;
     align-items: baseline;
-    gap: 1em;
+    gap: 2em;
   }
 
   #roles-list > * {

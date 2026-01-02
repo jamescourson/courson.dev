@@ -1,40 +1,51 @@
 @use '../../styles/mixins';
 @use '../../styles/colors' as *;
 
-#page-projects {
-  display: inline-flex;
-  flex-direction: column;
-  gap: 1em;
 
-  h1 {
-    margin-bottom: 0;
+#page-projects {
+  #projects-list {
+    display: flex;
+    flex-flow: row wrap;
+    gap: 2em;
   }
 
-  a {
+  .project-link {
+    color: $text-dark;
     text-decoration: none;
   }
 
   article {
     @include mixins.card;
-
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
-
+    height: 340px;
+    
     padding: 0;
     
     .project-header {
-      display: inline-block;
+      display: inline-flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
       
       border-bottom: 1px solid black;
+      height: 3.5em;
 
       h2 {
         text-align: center;
       }
     }
 
-    p {
-      padding: 0 1em;
+    .project-description {
+      padding: 1em;
+      padding-top: 0;
+    }
+
+    code {
+      margin-top: auto;
+      margin-bottom: 1em;
+      padding-left: 1em;
     }
   }
 
@@ -43,9 +54,9 @@
     background-color: rgba(11, 102, 35, 1);
 
     .project-header {
-      height: 3.5em;
+      width: 100%;
 
-      background-color: rgba(11, 102, 35, 1);
+      background-color: rgba(11, 102, 35, 0.75);
       background-image: url('jg-logo.png');
       background-position: center;
       background-size: 82.5%;
@@ -53,14 +64,23 @@
     }
     
     &:hover {
-      background-color: rgba(11, 102, 35, 0.9);
-      transition: 150ms ease;
+      background-color: rgba(11, 102, 35, 0.95);
+      transition: 60ms ease;
       
       .project-header {
-        background-color: rgba(11, 102, 35, 0.9);
-        background-size: 85%;
-        transition: 150ms ease;
+        background-color: rgba(11, 102, 35, 0.65);
+        background-size: 90%;
+        transition: background-color 60ms ease,
+                    background-size 120ms ease;
       }
+    }
+  }
+
+  #project-bw {
+    background-color: rgba(84, 166, 205, 1);
+
+    .project-header {
+      background-color: rgba(33, 65, 80, 0.3);
     }
   }
 }

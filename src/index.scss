@@ -4,11 +4,15 @@
 
 
 body {
-  background-image: url('cardboard.png');
+  background-image: url('bg/cardboard.png');
 }
 
 *::selection {
   color: floralwhite;
   background-color: #0B6623;
+}
+
+ul {
+  list-style-type: square;
 }
 
