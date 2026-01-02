@@ -38,10 +38,10 @@ const Resume = () => (
             <h3>Current Role</h3>
 
             <article id="role-infobate">
-              <img src="infobate.png" alt="InfoBATE" /><br />
-              <span><b>Developer</b> at InfoBATE</span><br />
-              <em>September 2020 - present</em><br />
-              <span>Pittsburgh, PA, USA (remote)</span><br />
+              <img src="infobate.png" alt="InfoBATE" />
+              <span><b>Developer</b> at InfoBATE</span>
+              <em>September 2020 - present</em>
+              <span>Pittsburgh, PA, USA (remote)</span>
               <code>🛠 AWS, React-admin, PostgREST</code>
             </article>
           </div>
@@ -50,10 +50,10 @@ const Resume = () => (
             <h3>Past Role</h3>
             <div>
               <article id="role-cgi">
-                <img src="cgi.svg" alt="CGI" /><br />
-                <span><b>Consultant</b> at CGI</span><br />
-                <em>June 2019 - August 2020</em><br />
-                <span>Pittsburgh, PA, USA</span><br />
+                <img src="cgi.svg" alt="CGI" />
+                <span><b>Consultant</b> at CGI</span>
+                <em>June 2019 - August 2020</em>
+                <span>Pittsburgh, PA, USA</span>
                 <code>🛠 Java 8, Maven, Angular</code>
               </article>
             </div>
@@ -69,18 +69,18 @@ const Resume = () => (
 
         <div>
           <article id="education-te">
-            <img src="te-logo.png" alt="Tech Elevator" /><br />
-            <span><b>.NET Curriculum</b> at Tech Elevator</span><br />
-            <em>December 2018 - April 2019</em><br />
-            <span>Pittsburgh, PA, USA</span><br />
+            <img src="te-logo.png" alt="Tech Elevator" />
+            <span><b>.NET Curriculum</b> at Tech Elevator</span>
+            <em>December 2018 - April 2019</em>
+            <span>Pittsburgh, PA, USA</span>
             <code>🛠 C#.NET, Azure, Vue.js</code>
           </article>
 
           <article id="education-psu">
-            <img src="psu-logo.png" alt="Penn State University" /><br />
-            <span><b>Computer Science</b> at Penn State</span><br />
-            <em>September 2017 - December 2019</em><br />
-            <span>Erie, PA, USA</span><br />
+            <img src="psu-logo.png" alt="Penn State University" />
+            <span><b>Computer Science</b> at Penn State</span>
+            <em>September 2017 - December 2019</em>
+            <span>Erie, PA, USA</span>
             <code>🛠 C++, Python, JavaScript</code>
           </article>
         </div>
