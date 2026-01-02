@@ -1,9 +1,12 @@
+@use './styles/fonts';
+
 #root {
+  @include fonts.rubik;
+
   padding: 1em;
-  font-family: 'Rubik', sans-serif;
 
   h1, h2, h3 {
-    font-family: 'Joan', sans-serif;
+    @include fonts.joan;
   }
 }
 

@@ -1,8 +1,9 @@
 @use '../../styles/mixins';
 @use '../../styles/colors' as *;
+@use '../../styles/fonts';
 
 #page-resume {
-  display: flex;
+  display: inline-flex;
   flex-direction: column;
   gap: 1em;
   
@@ -11,17 +12,22 @@
       margin-bottom: 0;
     }
   }
+
+  #resume-paper {
+    @include mixins.border;
+    @include mixins.shadow-heavy;
+
+    display: inline-block;
+    padding: 3em 2em;
+
+    border: 1px solid black;
+    border-radius: .25em;
+
+    background-color: rgba(10, 10, 10, 0.1);
+  }
   
   #resume-downloads {
-    margin-bottom: .5em; 
-  
-    a {
-      color: #0B6623;
-  
-      &:hover {
-        color: rgba(11, 102, 35, 0.8);
-      }
-    }
+    margin-bottom: .5em;
   }
 
   #resume-header {
@@ -41,9 +47,12 @@
   #current-role, #past-roles, #resume-education {
     article {
       @include mixins.card;
+      @include mixins.shadow-light;
+
       display: flex;
       flex-direction: column;
       justify-content: flex-start;
+      gap: 0;
 
       height: 180px;
 
@@ -63,11 +72,7 @@
   }
 
   #roles-list > * {
-    box-sizing: border-box;
-    width: 320px;
-    @media (max-width: 640px) {
-      width: 100%;
-    }
+    @include mixins.card_media;
   }
 
   #resume-experience {

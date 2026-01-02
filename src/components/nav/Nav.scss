@@ -1,9 +1,12 @@
+@use '../../styles/fonts';
+
+
 nav {
+  @include fonts.jbm;
+
   display: flex;
   flex-flow: row wrap;
   gap: 1em;
-
-  font-family: 'JetBrains Mono', monospace;
 
   a {
     color: black;

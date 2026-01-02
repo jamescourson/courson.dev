@@ -1,15 +1,23 @@
+@use '../../styles/fonts';
+
 #hr-footer {
   margin-top: 3em;
 }
 
 footer {
-  display: flex;
-  flex-flow: row wrap;
-  justify-content: flex-end;
-  align-items: baseline;
-  gap: 1em;
-
-  font-family: 'JetBrains Mono', monospace;
+  @include fonts.jbm;
   font-size: 0.85em;
+
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  gap: .25em;
+
+  div {
+    display: flex;
+    flex-flow: row wrap;
+    align-items: baseline;
+    gap: 1em;
+  }
 }
 

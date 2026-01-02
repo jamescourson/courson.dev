@@ -1,3 +1,5 @@
+@use '../../styles/fonts';
+
 
 header {
   display: flex;
@@ -5,19 +7,19 @@ header {
   gap: .5em;
 
   #name {
-    font-family: 'Joan', sans-serif;
+    @include fonts.joan;
     font-size: 2.25em;
     font-weight: bold;
 
     small {
-      color: rgba(11, 102, 35, 1);
+      @include fonts.jbm;
 
-      font-family: 'JetBrains Mono', monospace;
+      color: rgba(11, 102, 35, 1);
       font-size: .35em;
 
       &:hover {
         color: rgba(11, 102, 35, 0.75);
-        transition: 150ms ease;
+        transition: 120ms ease;
       }
     }
   }
