@@ -8,7 +8,7 @@ const defaultVersion = 'v0.0.0';
 
 const Footer = () => {
   const [version, setVersion] = useState(defaultVersion);
-  const lastUpdated = new Date().toLocaleString();
+  const lastUpdated = new Date().toLocaleDateString();
 
   useEffect(() => {
     fetch('version.txt')
@@ -21,12 +21,13 @@ const Footer = () => {
     <>
       <hr id="hr-footer" />
       <footer>
-        <em>Last Updated: {lastUpdated}</em>
         <div>
-          <span>&copy; James Courson 2026</span>
+          <span>&copy; 2026 JMC</span>
           <RandomIcon />
-          <b>{version}</b>
+          <b>v{version}</b>
         </div>
+
+        <small>Last Updated: {lastUpdated}</small>
       </footer>
     </>
   );

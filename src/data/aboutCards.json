@@ -1,0 +1,40 @@
+[
+  {
+    "id": "about-color",
+    "colorOverride": true,
+    "figure": "#0B6623",
+    "caption": "My Favorite Color",
+    "note": "I use it in everything"
+  },
+  {
+    "id": "about-coffee",
+    "colorOverride": true,
+    "figure": 12,
+    "unit": "fl oz",
+    "caption": "Coffee Consumed Today",
+    "note": "Not really",
+    "interval": {
+      "step": 3,
+      "length": 15000
+    }
+  },
+  {
+    "id": "about-rebuilds",
+    "colorOverride": false,
+    "figure": 15,
+    "caption": "Times I've Redesigned This Entire Website On A Whim",
+    "interval": {
+      "step": 1,
+      "length": 5000
+    }
+  },
+  {
+    "figure": 2,
+    "caption": "Professional Software Development Roles"
+  },
+  {
+    "figure": 0,
+    "caption": "Platinum Records Obtained"
+  }
+]
+

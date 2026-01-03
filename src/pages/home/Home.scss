@@ -1,0 +1,44 @@
+@use '../../styles/mixins';
+@use '../../styles/fonts';
+@use '../../styles/colors' as *;
+
+#page-home {
+  hgroup {
+    p {
+      @include fonts.jbm;
+      font-size: 1.25em;
+    }
+  }
+
+  #home-about {
+    div {
+      display: flex;
+      flex-flow: row wrap;
+      gap: 1em;
+      
+      article {
+        @include mixins.card;
+        @include fonts.jbm;
+        
+        text-align: center;
+        padding: 1em 2em;
+  
+        span {
+          font-size: 1.35em;
+        }
+
+        small {
+          font-size: .65em;
+        }
+      }
+  
+      #about-color {
+        background-color: $green-solid;
+      }
+
+      #about-coffee {
+        background-color: #6F4E37;
+      }
+    }
+  }
+}

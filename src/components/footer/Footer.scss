@@ -11,13 +11,15 @@ footer {
   display: flex;
   flex-direction: column;
   align-items: flex-end;
-  gap: .25em;
+  gap: .5em;
 
   div {
     display: flex;
     flex-flow: row wrap;
     align-items: baseline;
-    gap: 1em;
+    gap: .75em;
+
+    height: 1em;
   }
 }
 

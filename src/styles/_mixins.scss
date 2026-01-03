@@ -23,7 +23,7 @@
 
 @mixin card {
   @include border;
-  @include card_media;
+  @include card-media;
   @include shadow-heavy;
 
   display: flex;

@@ -1,8 +1,9 @@
 .random-icon {
+  text-align: center;
   width: 1em;
 
   &::selection {
     color: black;
-    background-color: white;
+    background-color: rgba(0, 0, 0, 0);
   }
 }

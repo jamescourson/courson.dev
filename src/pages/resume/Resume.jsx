@@ -44,7 +44,7 @@ const Resume = () => (
               <img src="infobate.png" alt="InfoBATE" />
               <span><b>Developer</b> at InfoBATE</span>
               <em>September 2020 - present</em>
-              <span>Pittsburgh, PA, USA (remote)</span>
+              <span>Pittsburgh, PA (remote)</span>
               <code>🛠 AWS, React-admin, PostgREST</code>
             </article>
           </div>
@@ -56,7 +56,7 @@ const Resume = () => (
                 <img src="cgi.svg" alt="CGI" />
                 <span><b>Consultant</b> at CGI</span>
                 <em>June 2019 - August 2020</em>
-                <span>Pittsburgh, PA, USA</span>
+                <span>Pittsburgh, PA (on-site)</span>
                 <code>🛠 Java 8, Maven, Angular</code>
               </article>
             </div>
@@ -75,7 +75,7 @@ const Resume = () => (
             <img src="te-logo.png" alt="Tech Elevator" />
             <span><b>.NET Curriculum</b> at Tech Elevator</span>
             <em>December 2018 - April 2019</em>
-            <span>Pittsburgh, PA, USA</span>
+            <span>Pittsburgh, PA</span>
             <code>🛠 C#.NET, Azure, Vue.js</code>
           </article>
 
@@ -83,7 +83,7 @@ const Resume = () => (
             <img src="psu-logo.png" alt="Penn State University" />
             <span><b>Computer Science</b> at Penn State</span>
             <em>September 2017 - December 2019</em>
-            <span>Erie, PA, USA</span>
+            <span>Erie, PA</span>
             <code>🛠 C++, Python, JavaScript</code>
           </article>
         </div>
