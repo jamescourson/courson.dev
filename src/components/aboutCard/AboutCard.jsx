@@ -2,14 +2,16 @@ import { useEffect, useState } from "react";
 import { getRandomNumber } from "../../util";
 
 
+const randomIfArray = val =>
+  Array.isArray(val)
+    ? getRandomNumber(val[0], val[1])
+    : val;
+
 const AboutCard = ({ data, color }) => {
   const { id, figure, unit, caption, note, interval, colorOverride } = data;
   const determinedColor = colorOverride ? 'default' : color;
 
-  const [figureString, setFigureString] = useState(() =>
-    Array.isArray(figure)
-      ? getRandomNumber(figure[0], figure[1])
-      : figure);
+  const [figureString, setFigureString] = useState(randomIfArray(figure));
 
   const iterateFigure = () =>
     setFigureString(previous => previous + 1);
@@ -18,9 +20,7 @@ const AboutCard = ({ data, color }) => {
     interval && setInterval(() => {
       if (Array.isArray(interval.step) || interval.step > 1) {
         // account for random step count if specified
-        let stepCount = Array.isArray(interval.step)
-          ? getRandomNumber(interval.step[0], interval.step[1])
-          : interval.step;
+        let stepCount = randomIfArray(interval.step);
 
         // sequential random-length timeouts
         let elapsed = 0;
@@ -34,9 +34,7 @@ const AboutCard = ({ data, color }) => {
       }
       else iterateFigure();
     },
-    Array.isArray(interval.timeout)
-      ? getRandomNumber(interval.timeout[0], interval.timeout[1])
-      : interval.timeout);
+    randomIfArray(interval.timeout));
 
   useEffect(() => {
     let cardInterval;
