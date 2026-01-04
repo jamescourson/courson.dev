@@ -1,32 +1,31 @@
 [
   {
     "id": "about-color",
-    "colorOverride": true,
     "figure": "#0B6623",
     "caption": "My Favorite Color",
-    "note": "I use it in everything"
+    "note": "I use it in everything",
+    "colorOverride": true
   },
   {
     "id": "about-coffee",
-    "colorOverride": true,
-    "figure": 12,
+    "figure": [12, 24],
     "unit": "fl oz",
     "caption": "Coffee Consumed Today",
-    "note": "Not really",
     "interval": {
-      "step": 3,
-      "length": 15000
-    }
+      "step": [0, 5],
+      "timeout": [25000, 55000]
+    },
+    "colorOverride": true
   },
   {
     "id": "about-rebuilds",
-    "colorOverride": false,
     "figure": 15,
     "caption": "Times I've Redesigned This Entire Website On A Whim",
     "interval": {
-      "step": 1,
-      "length": 5000
-    }
+      "step": [0, 1],
+      "timeout": [15000, 60000]
+    },
+    "colorOverride": false
   },
   {
     "figure": 2,

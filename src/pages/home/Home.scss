@@ -11,6 +11,18 @@
   }
 
   #home-about {
+    hgroup {
+      display: inline-flex;
+      flex-flow: row wrap;
+      align-items: baseline;
+      gap: 2em;
+
+      a {
+        font-size: 1.5em;
+        text-decoration: none;
+      }
+    }
+
     div {
       display: flex;
       flex-flow: row wrap;
@@ -19,6 +31,9 @@
       article {
         @include mixins.card;
         @include fonts.jbm;
+
+        height: 120px;
+        justify-content: center;
         
         text-align: center;
         padding: 1em 2em;
