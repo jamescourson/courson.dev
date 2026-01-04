@@ -11,18 +11,6 @@
   }
 
   #home-about {
-    hgroup {
-      display: inline-flex;
-      flex-flow: row wrap;
-      align-items: baseline;
-      gap: 2em;
-
-      a {
-        font-size: 1.5em;
-        text-decoration: none;
-      }
-    }
-
     div {
       display: flex;
       flex-flow: row wrap;
