@@ -9,8 +9,24 @@ const randomIfArray = val =>
     ? getRandomNumber(val[0], val[1])
     : val;
 
+/*
+  AboutCard - a flex item that displays a figure, a caption, and an optional note, in a specified color.
+    - Used in homepage "about me" section - src/pages/home/Home.jsx
+    - Data is rendered from JSON at src/data/aboutCards.json
+    - Supports specific or random step increases to `figure` at specific or random intervals,
+    i.e. "Increases by 0-5 every 30-45 seconds"
+*/
 const AboutCard = ({ data, color }) => {
-  const { id = undefined, figure, unit, caption, note, interval, colorOverride } = data;
+  const {
+    id = undefined, // optional, allows manual styling (also see `colorOverride`)
+    figure, // required, the quantity of the statistic
+    unit,  // optional, a unit associated with the figure (example: "fl oz")
+    caption, // required, a summary of the figure (example: "number of facts on this page")
+    note, // optional, a smaller sub-note of the caption
+    interval, // optional, defines an interval at which to iterate the figure
+    colorOverride // optional, determines if color will be set from props or by targeted css
+  } = data;
+
   // `colorOverride` flag allows setting color manually via css/js
   const determinedColor = colorOverride ? 'default' : color;
 
@@ -20,7 +36,7 @@ const AboutCard = ({ data, color }) => {
   const iterateFigure = () =>
     setFigureString(previous => previous + 1);
 
-  // sets card interval - 
+  // sets card interval (if specified)
   const setCardInterval = () =>
     interval && setInterval(() => {
       // if step is greater than 1, apply a "gradual" effect via 
