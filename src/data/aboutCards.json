@@ -12,7 +12,7 @@
     "unit": "fl oz",
     "caption": "Coffee Consumed Today",
     "interval": {
-      "step": [0, 5],
+      "step": [0, 3],
       "timeout": [25000, 55000]
     },
     "colorOverride": true

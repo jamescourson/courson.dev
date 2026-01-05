@@ -12,6 +12,7 @@ const RandomIcon = ({}) => {
   const [icon, setIcon] = useState(getNewRandomElement(icons, undefined));
   const cycleIcon = () => setIcon(getNewRandomElement(icons, icon));
 
+  // cycle to a new random icon on click
   const handleClick = () => {
     cycleIcon();
   }
