@@ -26,12 +26,13 @@ const Home = () => {
       <hgroup>
         <h1>Hello!</h1>
         <p>
-          I'm James, a developer based in <b>Pittsburgh, PA.</b>
+          I'm James, a developer based in <b>Pittsburgh, PA.</b> <br />
+          I build and maintain practical web applications.
         </p>
       </hgroup>
 
       <section id="home-about">
-        <h2>A Bit About Me <small>LIVE *</small></h2>
+        <h2>Fun Facts <small>LIVE *</small></h2>
 
         <div>
           {factCards.map((item, i) => (
@@ -43,7 +44,9 @@ const Home = () => {
           ))}
         </div>
 
-        <small id="footnote">* not really live</small>
+        <small id="footnote">
+          <em>* not really live</em>
+        </small>
       </section>
     </main>
   );

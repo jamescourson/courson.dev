@@ -16,7 +16,8 @@
 
   article {
     @include mixins.card;
-    
+    @include mixins.card-media;
+
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
@@ -29,7 +30,6 @@
       flex-direction: column;
       justify-content: center;
       align-items: center;
-      
       border-bottom: 1px solid black;
       height: 3.5em;
 
