@@ -60,7 +60,7 @@ const FactCard = ({ data, color }) => {
 
         // set n timeouts, where n = `interval.step`
         for (let i = 0; i < stepCount; i++) {
-          let randomTimeout = getRandomNumber(80, 640);
+          let randomTimeout = getRandomNumber(60, 540);
           elapsed += randomTimeout;
           
           setTimeout(iterateFigure, elapsed);
