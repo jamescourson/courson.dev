@@ -11,29 +11,18 @@
   }
 
   #home-about {
+    h2 {
+      small {
+        color: crimson;
+        font-size: 0.5em;
+        margin-left: 0.5em;
+      }
+    }
+
     div {
       display: flex;
       flex-flow: row wrap;
       gap: 1em;
-      
-      article {
-        @include mixins.card;
-        @include fonts.jbm;
-
-        height: 120px;
-        justify-content: center;
-        
-        text-align: center;
-        padding: 1em 2em;
-  
-        span {
-          font-size: 1.35em;
-        }
-
-        small {
-          font-size: .65em;
-        }
-      }
   
       #about-color {
         background-color: $green-solid;
