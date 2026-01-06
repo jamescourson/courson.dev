@@ -1,0 +1,39 @@
+[
+  {
+    "id": "about-color",
+    "figure": "#0B6623",
+    "caption": "Favorite Color",
+    "note": "I use it in everything",
+    "colorOverride": true
+  },
+  {
+    "id": "about-coffee",
+    "figure": [0, 400],
+    "unit": "ml",
+    "caption": "Coffee Consumed Today",
+    "interval": {
+      "step": [0, 40],
+      "timeout": [25000, 55000]
+    },
+    "colorOverride": true
+  },
+  {
+    "id": "about-rebuilds",
+    "figure": 5,
+    "caption": "Times I've Rebuilt This Entire Site On A Whim",
+    "interval": {
+      "step": [0, 1],
+      "timeout": [15000, 60000]
+    },
+    "colorOverride": false
+  },
+  {
+    "figure": 2,
+    "caption": "Professional Development Roles"
+  },
+  {
+    "figure": "Developer at InfoBATE",
+    "caption": "Current Role"
+  }
+]
+
