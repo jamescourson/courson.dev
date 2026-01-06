@@ -31,7 +31,7 @@ const Home = () => {
       </hgroup>
 
       <section id="home-about">
-        <h2>A Bit About Me <small>LIVE</small></h2>
+        <h2>A Bit About Me <small>LIVE *</small></h2>
 
         <div>
           {factCards.map((item, i) => (
@@ -42,6 +42,8 @@ const Home = () => {
             />
           ))}
         </div>
+
+        <small id="footnote">* not really live</small>
       </section>
     </main>
   );
