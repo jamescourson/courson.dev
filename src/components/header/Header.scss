@@ -2,7 +2,7 @@
 
 
 header {
-  display: flex;
+  display: inline-flex;
   flex-direction: column;
   gap: .5em;
 
@@ -16,11 +16,11 @@ header {
 
       color: rgba(11, 102, 35, 1);
       font-size: .35em;
+    }
 
-      &:hover {
-        color: rgba(11, 102, 35, 0.75);
-        transition: 120ms ease;
-      }
+    &:hover small {
+      color: rgba(11, 102, 35, 0.75);
+      transition: 120ms ease;
     }
   }
 }
