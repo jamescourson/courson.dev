@@ -5,7 +5,7 @@ import './RandomIcon.scss';
 
 
 const icons = [
-  '⨏', '⏣', '☄', '☀', '⚒', '♨', '♘'
+  '⨏', '⏣', '☄', '☀', '⚒', '♨', '♘', '⭔', '⟁'
 ]
 
 const RandomIcon = ({}) => {
