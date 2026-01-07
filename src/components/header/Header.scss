@@ -1,4 +1,5 @@
 @use '../../styles/fonts';
+@use '../../styles/colors' as *;
 
 
 header {
@@ -6,21 +7,33 @@ header {
   flex-direction: column;
   gap: .5em;
 
-  #name {
-    @include fonts.joan;
-    font-size: 2.25em;
-    font-weight: bold;
+  margin-bottom: 2em;
 
-    small {
-      @include fonts.jbm;
+  #name-link {
+    color: $text-dark;
+    text-decoration: none;
 
-      color: rgba(11, 102, 35, 1);
-      font-size: .35em;
-    }
+    span {
+      @include fonts.joan;
+      font-size: 2.25em;
+      font-weight: bold;
+  
+      small {
+        @include fonts.jbm;
+  
+        color: rgba(11, 102, 35, 1);
+        font-size: .35em;
+      }
+  
+      &:hover {
+        color: rgba(10, 10, 10, 0.75);
+        transition: 120ms ease;
 
-    &:hover small {
-      color: rgba(11, 102, 35, 0.75);
-      transition: 120ms ease;
+        small {
+          color: $green-75;
+          transition: 120ms ease;
+        }
+      }
     }
   }
 }

@@ -45,7 +45,7 @@ const Home = () => {
         </div>
 
         <small id="footnote">
-          <em>* not really live</em>
+          <em>* not actually live</em>
         </small>
       </section>
     </main>
