@@ -32,7 +32,7 @@ const Home = () => {
       </hgroup>
 
       <section id="home-about">
-        <h2>Fun Facts <small>LIVE *</small></h2>
+        <h2>Fun Facts</h2>
 
         <div>
           {factCards.map((item, i) => (

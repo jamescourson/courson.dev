@@ -12,10 +12,23 @@
 
   #home-about {
     h2 {
-      small {
+      display: flex;
+      flex-flow: row wrap;
+      align-items: center;
+
+      &::after {
+        @include fonts.jbm;
+        font-size: 0.45em;
         color: crimson;
-        font-size: 0.5em;
-        margin-left: 0.5em;
+        background-color: rgba(10, 10, 10, 0.05);
+
+        content: 'LIVE *';
+        border: 1px solid gray;
+        border-radius: .25em;
+        padding: 0 .25em;
+
+        margin-left: 1em;
+        margin-bottom: 1em;
       }
     }
 
