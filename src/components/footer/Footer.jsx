@@ -18,18 +18,17 @@ const Footer = () => {
   }, []);
 
   return (
-    <>
+    <footer>
       <hr id="hr-footer" />
-      <footer>
-        <div>
-          <span>&copy; 2026 JMC</span>
-          <RandomIcon />
-          <b>v{version}</b>
-        </div>
+      
+      <div>
+        <span>&copy; 2026 JMC</span>
+        <RandomIcon />
+        <b>v{version}</b>
+      </div>
 
-        <small>Last Updated: {lastUpdated}</small>
-      </footer>
-    </>
+      <small>Last Updated: {lastUpdated}</small>
+    </footer>
   );
 }
 

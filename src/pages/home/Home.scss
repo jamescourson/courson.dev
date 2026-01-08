@@ -3,6 +3,10 @@
 @use '../../styles/colors' as *;
 
 #page-home {
+  display: inline-flex;
+  flex-direction: column;
+  gap: 1em;
+
   hgroup {
     p {
       @include fonts.jbm;
@@ -11,29 +15,42 @@
   }
 
   #home-about {
-    h2 {
-      display: flex;
-      flex-flow: row wrap;
-      align-items: center;
+    display: inline-flex;
+    flex-direction: column;
+    gap: 1em;
 
-      &::after {
-        @include fonts.jbm;
-        font-size: 0.45em;
-        color: crimson;
-        background-color: rgba(10, 10, 10, 0.05);
+    hgroup {
+      h2 {
+        display: flex;
+        flex-flow: row wrap;
+        align-items: center;
 
-        content: 'LIVE *';
-        border: 1px solid gray;
-        border-radius: .25em;
-        padding: 0 .25em;
+        margin-bottom: 0.25em;
+  
+        &::after {
+          @include fonts.jbm;
+          font-size: 0.45em;
+          color: crimson;
+          background-color: rgba(10, 10, 10, 0.05);
+  
+          content: 'LIVE *';
+          border: 1px solid gray;
+          border-radius: .25em;
+          padding: 0 .25em;
+  
+          margin-left: 1em;
+          margin-bottom: .5em;
+        }
+      }
 
-        margin-left: 1em;
-        margin-bottom: .5em;
+      small {
+        display: block;
+        margin-top: 1em;
       }
     }
 
     div {
-      display: flex;
+      display: inline-flex;
       flex-flow: row wrap;
       gap: 1em;
   
@@ -44,11 +61,6 @@
       #about-coffee {
         background-color: #6F4E37;
       }
-    }
-
-    #footnote {
-      display: block;
-      margin-top: 1em;
     }
   }
 }

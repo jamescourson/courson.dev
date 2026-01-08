@@ -7,6 +7,7 @@
   flex-direction: column;
   gap: 1em;
   
+  
   hgroup {
     h1, hr {
       margin-bottom: 0;
@@ -19,6 +20,7 @@
 
     display: inline-block;
     padding: 3em 2em;
+    margin-right: auto;
 
     border: 1px solid black;
     border-radius: .25em;

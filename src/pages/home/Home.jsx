@@ -32,7 +32,13 @@ const Home = () => {
       </hgroup>
 
       <section id="home-about">
-        <h2>Fun Facts</h2>
+        <hgroup>
+          <h2>Fun Facts</h2>
+          <small>
+            <em>* not actually live</em>
+          </small>
+          <hr className="hr-partial" />
+        </hgroup>
 
         <div>
           {factCards.map((item, i) => (
@@ -43,10 +49,6 @@ const Home = () => {
             />
           ))}
         </div>
-
-        <small id="footnote">
-          <em>* not actually live</em>
-        </small>
       </section>
     </main>
   );

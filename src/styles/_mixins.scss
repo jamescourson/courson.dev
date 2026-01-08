@@ -32,7 +32,7 @@
   @include card-media;
   @include shadow-heavy;
 
-  display: flex;
+  display: inline-flex;
   flex-direction: column;
   justify-content: flex-start;
 

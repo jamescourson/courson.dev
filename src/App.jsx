@@ -21,9 +21,11 @@ const Router = () => (
 function App() {
   return (
     <BrowserRouter>
-      <Header />
-      <Router />
-      <Footer />
+      <div id="app">
+        <Header />
+        <Router />
+        <Footer />
+      </div>
     </BrowserRouter>
   );
 }
