@@ -12,8 +12,8 @@
     "unit": "ml",
     "caption": "Coffee Consumed Today",
     "interval": {
-      "step": [0, 40],
-      "timeout": [25000, 55000]
+      "step": [0, 35],
+      "timeout": [35000, 65000]
     },
     "colorOverride": true
   },
@@ -28,16 +28,13 @@
     "colorOverride": false
   },
   {
-    "figure": 2,
-    "caption": "Professional Development Roles"
-  },
-  {
     "figure": "Developer at InfoBATE",
     "caption": "Current Role"
   },
   {
     "figure": 6,
-    "caption": "Years of Professional Experience"
+    "unit": "years",
+    "caption": "Professional Experience"
   }
 ]
 
