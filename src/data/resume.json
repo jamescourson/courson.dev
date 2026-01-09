@@ -1,0 +1,121 @@
+{
+  "name": "James Courson",
+  "headline": "A capable software developer",
+  "strengthsHeader": "Technical Strengths",
+  "strengths": [
+    "6 years of experience with complex UI design and front-end tooling",
+    "Extensive knowledge of HTML, CSS, and JavaScript",
+    "Proficiency with AWS and cloud infrastructure",
+    "A strong focus on clean, maintainable code and markup"
+  ],
+  "rolesHeader": "Professional Experience",
+  "roles": [
+    {
+      "company": {
+        "name": "InfoBATE",
+        "logo": "infobate.png"
+      },
+      "title": "Developer",
+      "tenure": {
+        "start": {
+          "month": 9,
+          "year": 2020
+        },
+        "end": null
+      },
+      "location": {
+        "city": "Pittsburgh",
+        "state": "PA",
+        "arrangement": "remote"
+      },
+      "technologiesUsed": [
+        "React-admin",
+        "PostgREST",
+        "AWS"
+      ]
+    },
+    {
+      "company": {
+        "name": "InfoBATE",
+        "logo": "infobate.png"
+      },
+      "title": "Developer",
+      "tenure": {
+        "start": {
+          "month": 6,
+          "year": 2019
+        },
+        "end": {
+          "month": 9,
+          "year": 2020
+        }
+      },
+      "location": {
+        "city": "Pittsburgh",
+        "state": "PA",
+        "arrangement": "on-site"
+      },
+      "technologiesUsed": [
+        "Angular 8",
+        "Maven",
+        "Java 8"
+      ]
+    }
+  ],
+  "education": [
+    {
+      "institution": {
+        "name": "Tech Elevator",
+        "logo": "te-logo.png"
+      },
+      "fieldOfStudy": ".NET Curriculum",
+      "tenure": {
+        "start": {
+          "month": 12,
+          "year": 2018
+        },
+        "end": {
+          "month": 4,
+          "year": 2019
+        }
+      },
+      "location": {
+        "city": "Pittsburgh",
+        "state": "PA",
+        "arrangement": "on-site"
+      },
+      "technologiesUsed": [
+        "Vue.js",
+        "C#.NET",
+        "Azure"
+      ]
+    },
+    {
+      "institution": {
+        "name": "Penn State",
+        "logo": "psu-logo.png"
+      },
+      "fieldOfStudy": "Computer Science",
+      "tenure": {
+        "start": {
+          "month": 9,
+          "year": 2017
+        },
+        "end": {
+          "month": 10,
+          "year": 2018
+        }
+      },
+      "location": {
+        "city": "Erie",
+        "state": "PA",
+        "arrangement": "on-site"
+      },
+      "technologiesUsed": [
+        "Python",
+        "C++",
+        "JavaScript"
+      ]
+    }
+  ]
+}
