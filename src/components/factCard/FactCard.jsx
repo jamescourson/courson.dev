@@ -12,10 +12,11 @@ const randomIfArray = val =>
     : val;
 
 /*
-  FactCard - a flex item that displays a figure, a caption, and an optional note, in a specified color.
+  FactCard - a flex item that displays a figure, a caption, and an optional note.
     - Used in homepage "about me" section - src/pages/home/Home.jsx
     - Data is rendered from JSON at src/data/factCards.json
-    - Supports specific or random step increases to `figure` at specific or random intervals,
+    - Supports specific or random step increases to `figure` at specific or random intervals
+    - Color can be assigned manually (./FactCard.scss), defaults to random color from src/data/cardColors.json
     i.e. "Increases by 0-5 every 30-45 seconds"
 */
 const FactCard = ({ data, color }) => {
