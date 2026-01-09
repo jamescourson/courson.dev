@@ -7,10 +7,21 @@ const Resume = () => (
   <main id="page-resume">
     <hgroup>
       <h1>Resume</h1>
+      <p>
+        <em>
+          A brief overview of my professional history.
+        </em> <br />
+        <Link to="https://github.com/jamescourson/courson.dev/tree/master/src/pages/resume/Resume.jsx" target='_blank'>
+          <small>View source</small>
+        </Link>
+      </p>
+
       <em id="resume-downloads">
-        One-page downloads:&nbsp;
-        <a href="#">.pdf</a>,&nbsp;
-        <a href="#">.docx</a>
+        <b>
+          One-page, detailed downloads 🠚&nbsp;
+          <a href="#">.pdf</a>,&nbsp;
+          <a href="#">.docx</a>&nbsp;
+        </b>
       </em>
       <hr className='hr-partial' />
     </hgroup>
@@ -89,10 +100,6 @@ const Resume = () => (
         </div>
       </section>
     </div>
-    
-    <small>
-      <Link to="https://github.com/jamescourson/courson.dev/blob/master/src/pages/resume/Resume.jsx" target="_blank">View source</Link>
-    </small>
   </main>
 );
 
