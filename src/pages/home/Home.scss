@@ -13,5 +13,26 @@
       font-size: 1.25em;
     }
   }
+
+  ul {
+    list-style: none;
+    padding-left: 2em;
+  
+    li {
+      &:not(:last-child) {
+        margin-bottom: .125em;
+      }
+
+      &::before {
+        position: absolute;
+        content: '🠚';
+        transform: translate(-1.25em, -.125em);
+      }
+    }
+
+    a {
+      font-weight: bold;
+    }
+  }
 }
 

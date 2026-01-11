@@ -18,10 +18,10 @@ const Home = () => {
         <h2>While you're here:</h2>
         <ul>
           <li>Learn a bit <Link to="/about">about me</Link></li>
-          <li>Check out my <Link to="/projects">personal projects & collaborations</Link></li>
+          <li>Take a look at my <Link to="/projects">personal projects & collaborations</Link></li>
           <li>
-            Looking for a developer like me to join your team? <br />
-              🠚&nbsp;<Link to="/resume">Check out my resume!</Link>
+            Looking for a developer like me to join your team?
+            &nbsp;<Link to="/resume">Check out my resume!</Link>
           </li>
         </ul>
       </section>
