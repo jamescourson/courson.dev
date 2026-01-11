@@ -11,6 +11,35 @@
     @include fonts.jbm;
     font-size: 1.25em;
   }
+  
+  #portal-resume {
+    display: inline-flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 1em;
+
+    em {
+      font-size: 1.125em;
+    }
+
+    #resume-link {
+      @include mixins.card;
+
+      display: inline-block;
+      text-align: center;
+      
+      padding: 1em;
+
+      color: $text-dark;
+      background-color: $green-75;
+      text-decoration: none;
+
+      &:hover {
+        background-color: $green-80;
+        text-decoration: underline;
+      }
+    }
+  }
 
   ul {
     list-style: none;
@@ -30,31 +59,6 @@
 
     a {
       font-weight: bold;
-    }
-  }
-  
-  #portal-resume {
-    display: inline-flex;
-    flex-direction: column;
-    justify-content: center;
-    gap: 1em;
-
-    #resume-link {
-      @include mixins.card;
-
-      display: inline-block;
-      text-align: center;
-      
-      padding: 1em;
-
-      color: $text-dark;
-      background-color: $green-75;
-      text-decoration: none;
-
-      &:hover {
-        background-color: $green-80;
-        text-decoration: underline;
-      }
     }
   }
 }
