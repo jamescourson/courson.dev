@@ -35,6 +35,11 @@
     "figure": 6,
     "unit": "years",
     "caption": "Professional Experience"
+  },
+  {
+    "figure": "React + SCSS",
+    "caption": "Preferred Toolset",
+    "note": "For static sites"
   }
 ]
 
