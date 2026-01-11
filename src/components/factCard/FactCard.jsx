@@ -13,7 +13,7 @@ const randomIfArray = val =>
 
 /*
   FactCard - a flex item that displays a figure, a caption, and an optional note.
-    - Used in homepage "about me" section - src/pages/home/Home.jsx
+    - Used in homepage "about me" section: src/pages/home/Home.jsx
     - Data is rendered from JSON at src/data/factCards.json
     - Supports specific or random step increases to `figure` at specific or random intervals
     - Color can be assigned manually (./FactCard.scss), defaults to random color from src/data/cardColors.json
