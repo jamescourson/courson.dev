@@ -29,7 +29,8 @@
   },
   {
     "figure": "Developer at InfoBATE",
-    "caption": "Current Role"
+    "caption": "Current Role",
+    "colorOverride": "#84BD00"
   },
   {
     "figure": 6,
@@ -42,9 +43,19 @@
     "note": "For static sites"
   },
   {
-    "figure": "Walnut",
-    "caption": "Favorite Wood Species",
-    "colorOverride": "#533012"
+    "figure": "Cherry",
+    "caption": "Favorite Wood to Work",
+    "colorOverride": "#BC7C4C"
+  },
+  {
+    "figure": "Flowering Dogwood",
+    "caption": "Favorite Tree",
+    "colorOverride": "floralwhite"
+  },
+  {
+    "figure": "Gray Catbird",
+    "caption": "Favorite Bird",
+    "colorOverride": "#96928A"
   }
 ]
 
