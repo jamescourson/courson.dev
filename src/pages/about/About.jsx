@@ -1,6 +1,6 @@
 import { useEffect, useState } from 'react';
 
-import { getRandomNumber, shuffleArray } from '../../util';
+import { shuffleArray } from '../../util';
 
 import { default as factCardsJson } from '../../data/factCards.json';
 import { default as cardColorsJson } from '../../data/cardColors.json';
@@ -24,6 +24,12 @@ const About = () => {
   return (
     <main id="page-about">
       <h1>About Me</h1>
+
+      <section id="about-summary">
+        <p>
+          
+        </p>
+      </section>
 
       <section id="about-fun_facts">
         <hgroup>
