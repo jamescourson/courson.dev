@@ -40,6 +40,10 @@
     "figure": "React + SCSS",
     "caption": "Preferred Toolset",
     "note": "For static sites"
+  },
+  {
+    "figure": "Walnut",
+    "caption": "Favorite Wood Species"
   }
 ]
 
