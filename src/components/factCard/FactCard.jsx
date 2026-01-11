@@ -16,7 +16,7 @@ const randomIfArray = val =>
     - Used in homepage "about me" section: src/pages/home/Home.jsx
     - Data is rendered from JSON at src/data/factCards.json
     - Supports specific or random step increases to `figure` at specific or random intervals
-    - Color can be assigned manually (./FactCard.scss), defaults to random color from src/data/cardColors.json
+    - Color can be assigned manually with `colorOverride` prop, defaults to random color from src/data/cardColors.json
     i.e. "Increases by 0-5 every 30-45 seconds"
 */
 const FactCard = ({ data, color }) => {
@@ -27,13 +27,13 @@ const FactCard = ({ data, color }) => {
     caption, // required, a summary of the figure (example: "number of facts on this page")
     note, // optional, a smaller sub-note of the caption
     interval, // optional, defines an interval at which to iterate the figure
-    colorOverride // optional, determines if color will be set from props or by targeted css
+    colorOverride // optional, background color of card
   } = data;
 
   // `colorOverride` flag allows setting color manually via css/js
   const determinedColor = useMemo(() =>
-    colorOverride ? 'default' : color,
-  [colorOverride]);
+    colorOverride ? colorOverride : color,
+  [colorOverride, color]);
 
   // styles to be injected into <article>
   const cardStyles = useMemo(() => ({
