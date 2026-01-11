@@ -13,17 +13,15 @@ const Home = () => {
           I build and maintain practical, responsive web applications.
         </p>
 
-        <hr className="hr-partial" />
-      </hgroup>
-
-      <section id="home-portal">
         <h2>While you're here:</h2>
         
         <ul>
           <li>Learn a bit <Link to="/about">about me</Link></li>
-          <li>Take a look at my <Link to="/projects">personal projects & collaborations</Link></li>
+          <li>Take a look at my <Link to="/projects">personal projects</Link></li>
         </ul>
-      </section>
+        
+        <hr className="hr-partial" />
+      </hgroup>
 
       <article id="portal-resume">
         <em>
