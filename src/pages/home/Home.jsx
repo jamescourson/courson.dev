@@ -1,54 +1,29 @@
-import { useEffect, useState } from 'react';
-
-import { getRandomNumber, shuffleArray } from '../../util';
-
-import { default as factCardsJson } from '../../data/factCards.json';
-import { default as cardColorsJson } from '../../data/cardColors.json';
+import { Link } from 'react-router';
 
 import './Home.scss';
-import FactCard from '../../components/factCard/FactCard';
 
 
 const Home = () => {
-  const [factCards, setFactCards] = useState([]);
-  const [cardColors, setCardColors] = useState([]);
-  
-  useEffect(() => {
-    if (cardColors.length === 0)
-      setCardColors(shuffleArray(cardColorsJson));
-
-    if (factCards.length === 0)
-      setFactCards(shuffleArray(factCardsJson));
-  });
-
   return (
     <main id="page-home">
       <hgroup>
         <h1>Hello!</h1>
         <p>
           I'm James, a developer based in <b>Pittsburgh, PA.</b> <br />
-          I build and maintain practical web applications.
+          I build and maintain practical, responsive web applications.
         </p>
       </hgroup>
 
-      <section id="home-about">
-        <hgroup>
-          <h2>Fun Facts</h2>
-          <small>
-            <em>* not actually live</em>
-          </small>
-          <hr className="hr-partial" />
-        </hgroup>
-
-        <div>
-          {factCards.map((item, i) => (
-            <FactCard
-              data={item}
-              color={cardColors[i]}
-              key={i}
-            />
-          ))}
-        </div>
+      <section id="home-portal">
+        <h2>While you're here:</h2>
+        <ul>
+          <li>Learn a bit <Link to="/about">about me</Link></li>
+          <li>Check out my <Link to="/projects">personal projects & collaborations</Link></li>
+          <li>
+            Looking for a developer like me to join your team? <br />
+              🠚&nbsp;<Link to="/resume">Check out my resume!</Link>
+          </li>
+        </ul>
       </section>
     </main>
   );
