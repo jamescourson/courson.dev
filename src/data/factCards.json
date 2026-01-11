@@ -4,7 +4,7 @@
     "figure": "#0B6623",
     "caption": "Favorite Color",
     "note": "I use it in everything",
-    "colorOverride": true
+    "colorOverride": "#0B6623"
   },
   {
     "id": "about-coffee",
@@ -15,7 +15,7 @@
       "step": [0, 35],
       "timeout": [35000, 65000]
     },
-    "colorOverride": true
+    "colorOverride": "#6F4E37"
   },
   {
     "id": "about-rebuilds",
@@ -43,7 +43,8 @@
   },
   {
     "figure": "Walnut",
-    "caption": "Favorite Wood Species"
+    "caption": "Favorite Wood Species",
+    "colorOverride": "#533012"
   }
 ]
 
