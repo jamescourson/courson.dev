@@ -4,6 +4,11 @@
 
 #page-about {
 
+  hgroup {
+    h1, h2 {
+      margin-bottom: 0.25em;
+    }
+  }
   
   #about-fun_facts {
     display: inline-flex;
@@ -15,8 +20,6 @@
         display: flex;
         flex-flow: row wrap;
         align-items: center;
-
-        margin-bottom: 0.25em;
   
         &::after {
           @include fonts.jbm;
