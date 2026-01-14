@@ -4,11 +4,12 @@ import RandomIcon from '../randomIcon/RandomIcon';
 import './Footer.scss';
 
 
-const defaultVersion = 'v0.0.0';
+const defaultVersion = '0.0.0';
 
 const Footer = () => {
   const [version, setVersion] = useState(defaultVersion);
   const lastUpdated = new Date().toLocaleDateString();
+  const currentYear = new Date().getFullYear();
 
   useEffect(() => {
     fetch('version.txt')
