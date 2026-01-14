@@ -40,12 +40,7 @@
   {
     "figure": "React + SCSS",
     "caption": "Preferred Toolset",
-    "note": "For static sites"
-  },
-  {
-    "figure": "Cherry",
-    "caption": "Favorite Wood to Work",
-    "colorOverride": "#BC7C4C"
+    "note": "for static sites"
   },
   {
     "figure": "Flowering Dogwood",
@@ -56,6 +51,11 @@
     "figure": "Gray Catbird",
     "caption": "Favorite Bird",
     "colorOverride": "#96928A"
+  },
+  {
+    "figure": "Noita",
+    "caption": "Favorite Video Game",
+    "note": "current"
   }
 ]
 
