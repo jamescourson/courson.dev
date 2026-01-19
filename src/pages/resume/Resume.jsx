@@ -1,5 +1,3 @@
-import { Link } from 'react-router';
-
 import './Resume.scss';
 
 
@@ -8,20 +6,21 @@ const Resume = () => (
     <hgroup>
       <h1>Resume</h1>
       <p>
-        <em>
-          A brief overview of my professional history.
-        </em> <br />
-        <Link to="https://github.com/jamescourson/courson.dev/tree/master/src/pages/resume/Resume.jsx" target='_blank'>
-          <small>View source</small>
-        </Link>
+        A brief overview of my professional history. <br />
+        <small>
+          <em>
+            Note: For readability, responsibility summaries for
+            each role have been omitted from this web version.
+          </em>
+        </small>
       </p>
 
       <em id="resume-downloads">
         <b>
-          One-page, detailed downloads 🠚&nbsp;
+          Detailed, one-page downloads 🠚&nbsp;
           <a href="#">.pdf</a>,&nbsp;
           <a href="#">.docx</a>&nbsp;
-        </b>
+        </b> <br />
       </em>
       <hr className='hr-partial' />
     </hgroup>
@@ -37,9 +36,9 @@ const Resume = () => (
         <h2>Technical Strengths</h2>
       
         <ul>
-          <li>6 years of experience with <b>complex UI design</b> and front-end tooling</li>
-          <li>Extensive knowledge of <b>HTML, CSS, and JavaScript</b></li>
-          <li>Proficiency with <b>AWS core services</b> and cloud-based development</li>
+          <li>6 years of experience with <b>complex UI design</b>, primarily in <b>React</b></li>
+          <li>Proficiency with <b>AWS CDK and core services</b> for <b>IaC development</b></li>
+          <li>Extensive hands-on knowledge of <b>HTML, CSS, and JavaScript</b></li>
           <li>A strong focus on <b>clean, maintainable code and markup</b></li>
         </ul>
       </section>
