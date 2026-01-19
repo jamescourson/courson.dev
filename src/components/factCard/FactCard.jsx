@@ -14,9 +14,9 @@ const randomIfArray = val =>
 /*
   FactCard - a flex item that displays a figure, a caption, and an optional note.
     - Used in homepage "about me" section: src/pages/home/Home.jsx
-    - Data is rendered from JSON at src/data/factCards.json
+    - Data is rendered from JSON (src/data/factCards.json)
     - Supports specific or random step increases to `figure` at specific or random intervals
-    - Color can be assigned manually with `colorOverride` prop, defaults to random color from src/data/cardColors.json
+    - Color can be assigned manually with `colorOverride` prop, defaults to random color (src/data/cardColors.json)
     i.e. "Increases by 0-5 every 30-45 seconds"
 */
 const FactCard = ({ data, color }) => {
@@ -49,10 +49,11 @@ const FactCard = ({ data, color }) => {
   // sets card interval (if specified)
   const setCardInterval = () =>
     interval && setInterval(() => {
-      // if step is greater than 1, apply a "gradual" effect via 
-      // multiple +1 iterations with randomized intervals
+      // if `step` is greater than 1,
+      //   apply multiple timeouts with random lengths
+      // else, just iterate by `step`
       if (Array.isArray(interval.step) || interval.step > 1) {
-        // account for random step count if specified
+        // account for random `step` count if specified
         let stepCount = randomIfArray(interval.step);
 
         // setTimeout() runs async, so
@@ -67,7 +68,6 @@ const FactCard = ({ data, color }) => {
           setTimeout(iterateFigure, elapsed);
         }
       }
-      // if `step.interval` is 1, just iterate
       else iterateFigure();
     },
     // set timeout `x`, or random timeout in range `[x,y]`

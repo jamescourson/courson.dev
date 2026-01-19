@@ -13,7 +13,7 @@
     "caption": "Coffee Consumed Today",
     "interval": {
       "step": [0, 35],
-      "timeout": [35000, 65000]
+      "timeout": [24000, 48000]
     },
     "colorOverride": "#6F4E37"
   },
