@@ -35,6 +35,10 @@ const About = () => {
         <h2>Summary</h2>
         <p>
           I'm <b>26 years old</b> with <b>six years</b> of professional development experience. <br />
+          My current role focuses on <b>React with react-admin</b> and <b>AWS CDK</b>. <br />
+          <br />
+          Outside of work, my hobbies include <b>woodworking, piano/keyboard, and birdwatching</b>. <br />
+          I also occasionally dabble in <b>game development</b>, usually with <b>Godot</b>.
         </p>
       </section>
 

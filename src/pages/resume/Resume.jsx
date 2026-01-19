@@ -51,8 +51,8 @@ const Resume = () => (
             <h3>Current Role</h3>
 
             <article id="role-infobate">
-              <img src="infobate.png" alt="InfoBATE" />
-              <span><b>Developer</b> at InfoBATE</span>
+              <img src="infobate.png" alt="InfoBate" />
+              <span><b>Developer</b> at InfoBate</span>
               <em>September 2020 - present</em>
               <span>Pittsburgh, PA (remote)</span>
               <code>🛠 AWS, React-admin, PostgREST</code>

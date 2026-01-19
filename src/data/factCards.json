@@ -28,9 +28,8 @@
     "colorOverride": false
   },
   {
-    "figure": "Developer at InfoBATE",
-    "caption": "Current Role",
-    "colorOverride": "#84BD00"
+    "figure": "Developer at InfoBate",
+    "caption": "Current Role"
   },
   {
     "figure": 6,
@@ -56,6 +55,14 @@
     "figure": "Noita",
     "caption": "Favorite Video Game",
     "note": "current"
+  },
+  {
+    "figure": "J.S. Bach",
+    "caption": "Favorite Composer"
+  },
+  {
+    "figure": "Cherry",
+    "caption": "Favorite Wood Species"
   }
 ]
 
