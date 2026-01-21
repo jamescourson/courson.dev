@@ -5,13 +5,12 @@ const Resume = () => (
   <main id="page-resume">
     <hgroup>
       <h1>Resume</h1>
+
       <p>
-        A brief overview of my professional history. <br />
+        <em>A brief overview of my professional history.</em> <br />
         <small>
-          <em>
-            Note: For readability, responsibility summaries for
-            each role have been omitted from this web version.
-          </em>
+          Note: For readability, responsibility summaries for
+          each role have been omitted from this web version.
         </small>
       </p>
 

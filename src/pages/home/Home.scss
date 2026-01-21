@@ -25,6 +25,11 @@
     #resume-link {
       @include mixins.card;
 
+      // Override mixins.card-media rule
+      @media (min-width: 450px) {
+        width: 320px;
+      }
+
       display: inline-block;
       text-align: center;
       
