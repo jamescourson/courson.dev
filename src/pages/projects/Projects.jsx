@@ -52,7 +52,7 @@ const Projects = () => (
             <p>
               A 2D sidescroller about birdwatching. <br />
               <br />
-              Explore procedurally-generated 2D forests, take pictures of cool birds, and complete your coveted bird book. <br />
+              Explore parks and forests, take pictures of cool birds, and complete your coveted bird book. <br />
               <br />
               <em>In design/early development. Coming soon.</em>
             </p>
