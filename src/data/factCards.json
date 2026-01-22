@@ -37,11 +37,6 @@
     "caption": "Professional Experience"
   },
   {
-    "figure": "React + SCSS",
-    "caption": "Preferred Toolset",
-    "note": "for static sites"
-  },
-  {
     "figure": "Flowering Dogwood",
     "caption": "Favorite Tree",
     "colorOverride": "floralwhite"
@@ -63,6 +58,10 @@
   {
     "figure": "Cherry",
     "caption": "Favorite Wood Species"
+  },
+  {
+    "figure": "Modest Mouse",
+    "caption": "Favorite Band"
   }
 ]
 
