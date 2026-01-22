@@ -13,8 +13,10 @@ const About = () => (
     </hgroup>
 
     <section id="about-summary">
-      <h2>Summary</h2>
-      <hr className="hr-partial" />
+      <hgroup>
+        <h2>Summary</h2>
+        <hr className="hr-partial" />
+      </hgroup>
       <p>
         I'm <b>26 years old</b> with <b>six years</b> of professional development experience. <br />
         My current role has me focusing on <b>React with react-admin</b> and <b>AWS CDK</b>. <br />
