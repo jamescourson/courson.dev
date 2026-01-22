@@ -24,7 +24,7 @@ const Home = () => {
       <hgroup>
         <h1>Hello!</h1>
         <p>
-          I'm James, a developer based in <b>Pittsburgh, PA.</b> <br />
+          I'm James, a developer based in <b>Pittsburgh, PA, USA.</b> <br />
           I build and maintain practical, responsive web applications.
         </p>
 

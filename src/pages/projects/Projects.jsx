@@ -5,7 +5,13 @@ import './Projects.scss';
 
 const Projects = () => (
   <main id="page-projects">
-    <h1>Project Showcase</h1>
+    <hgroup>
+      <h1>Project Showcase</h1>
+      <em>
+        <Link to="https://github.com/jamescourson/">GitHub</Link>
+      </em>
+      <hr className="hr-partial" />
+    </hgroup>
 
     <section id="projects-list">
       <div id="projects-featured">
