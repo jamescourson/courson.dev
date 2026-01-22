@@ -39,7 +39,7 @@ const Projects = () => (
       </div>
 
       <div id="projects-upcoming">
-        <h2>Upcoming Projects</h2>
+        <h2>Upcoming</h2>
 
         <article id="project-bw">
           <div className="project-header">
