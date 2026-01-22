@@ -46,6 +46,10 @@
     }
   }
 
+  #home-todo {
+    @include fonts.jbm;
+  }
+
   ul {
     list-style: none;
     padding-left: 2em;
@@ -58,7 +62,7 @@
       &::before {
         position: absolute;
         content: '🠚';
-        transform: translate(-1.25em, -.125em);
+        transform: translate(-1.25em, -.0625em);
       }
     }
 

@@ -1,9 +1,24 @@
+import { useEffect, useState } from 'react';
 import { Link } from 'react-router';
+
+import { default as todoListJson } from '../../data/todo.json';
 
 import './Home.scss';
 
 
 const Home = () => {
+  const [todoList, setTodoList] = useState([]);
+
+  // sort by date descending
+  const sortTodo = () =>
+    todoListJson.toSorted((a, b) => new Date(b.dateAdded) - new Date(a.dateAdded));
+
+  useEffect(() => {
+    // initialize todoList
+    if (todoList.length === 0)
+      setTodoList(sortTodo());
+  });
+
   return (
     <main id="page-home">
       <hgroup>
@@ -39,9 +54,9 @@ const Home = () => {
         <hr className="hr-partial" />
         <h2>To do:</h2>
         <ul>
-          <li>Dark theme + toggle button</li>
-          <li>Add more fun facts to the <Link to="/about">about page</Link></li>
-          <li>Visualize <Link to="/resume">resume</Link> from JSON</li>
+          {todoList.map(({ content, dateAdded }, i) => (
+            <li key={i}><b>{dateAdded}</b>: <em>{content}</em></li>
+          ))}
         </ul>
       </section>
     </main>
