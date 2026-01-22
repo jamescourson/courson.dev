@@ -46,8 +46,8 @@ const Home = () => {
         <Link to="/resume" id="resume-link"><b>Check out my resume!</b></Link>
         <small>
           Quick downloads:
-          &nbsp;<a href="#">.pdf</a>,
-          &nbsp;<a href="#">.docx</a>
+          &nbsp;<a href="james-courson.pdf" download>.pdf</a>,
+          &nbsp;<a href="james-courson.docx" download>.docx</a>
         </small>
         <em>Or, get in touch via email: <b id="email">james@courson.dev</b></em>
       </article>
