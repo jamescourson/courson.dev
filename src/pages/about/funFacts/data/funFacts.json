@@ -57,7 +57,8 @@
   },
   {
     "figure": "Cherry",
-    "caption": "Favorite Wood Species"
+    "caption": "Favorite Wood Species",
+    "colorOverride": "#CB6D51"
   },
   {
     "figure": "Modest Mouse",
