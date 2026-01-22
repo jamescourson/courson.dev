@@ -25,8 +25,9 @@ const Resume = () => (
 
     <div id="resume-paper">
       <section id="resume-header">
-        <b>James Courson</b><br />
-        <em>A capable software developer</em>
+        <b>James Courson</b> <br />
+        <em>A capable software developer</em> <br />
+        <small>james@courson.dev</small>
         <hr className='hr-partial' />
       </section>
 

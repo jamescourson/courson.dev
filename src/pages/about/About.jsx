@@ -12,7 +12,6 @@ const About = () => (
       <em>If you're looking for a more professional summary of my career, check out <Link to="/resume">my resume</Link>!</em>
     </hgroup>
 
-
     <section id="about-summary">
       <h2>Summary</h2>
       <p>
