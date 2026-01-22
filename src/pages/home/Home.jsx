@@ -33,6 +33,7 @@ const Home = () => {
         <ul>
           <li>Learn a bit <Link to="/about">about me</Link></li>
           <li>Take a look at my <Link to="/projects">projects</Link></li>
+          <li>Pick up a new dev tool from my <Link to="/resources">resource list</Link></li>
         </ul>
         
         <hr className="hr-partial" />
