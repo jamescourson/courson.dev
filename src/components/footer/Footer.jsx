@@ -23,7 +23,7 @@ const Footer = () => {
       <hr id="hr-footer" />
       
       <div>
-        <span>&copy; 2026 JMC</span>
+        <span>&copy; {currentYear} JMC</span>
         <RandomIcon />
         <b>v{version}</b>
       </div>
