@@ -57,7 +57,7 @@ const Home = () => {
         <h2>To do:</h2>
         <ul>
           {todoList.map(({ content, dateAdded }, i) => (
-            <li key={i}><b>{dateAdded}</b>: <em>{content}</em></li>
+            <li key={i}><em>{content}</em></li>
           ))}
         </ul>
       </section>
