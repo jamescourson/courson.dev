@@ -32,7 +32,8 @@ const Home = () => {
         
         <ul>
           <li>Learn a bit <Link to="/about">about me</Link></li>
-          <li>Take a look at my <Link to="/projects">personal projects</Link></li>
+          <li>Pick up a new dev tool from my <Link to="/resources">resource list</Link></li>
+          <li>Take a look at my <Link to="/projects">projects</Link></li>
         </ul>
         
         <hr className="hr-partial" />
@@ -48,6 +49,7 @@ const Home = () => {
           &nbsp;<a href="#">.pdf</a>,
           &nbsp;<a href="#">.docx</a>
         </small>
+        <em>Or, get in touch via email: <b id="email">james@courson.dev</b></em>
       </article>
 
       <section id="home-todo">
