@@ -1,6 +1,6 @@
 [
   {
-    "content": "Fix background-image opacity issue on Chromium-based browsers",
+    "content": "Fix background texture opacity issue on Chromium-based browsers",
     "dateAdded": "1/21/2026"
   },
   {
@@ -8,11 +8,11 @@
     "dateAdded": "1/21/2026"
   },
   {
-    "content": "Add Dark theme + toggle button",
+    "content": "Add dark theme + toggle button",
     "dateAdded": "1/20/2026"
   },
   {
-    "content": "Update Resume component to render data from `data/resume.json`",
+    "content": "Rewrite Resume component to render data from `src/data/resume.json`",
     "dateAdded": "1/19/2026"
   }
 ]
