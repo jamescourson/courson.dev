@@ -60,7 +60,7 @@ const Projects = () => (
               <br />
               Explore parks and forests, take pictures of cool birds, and complete your coveted bird book. <br />
               <br />
-              <em>In design/early development. Coming soon.</em>
+              <em>In early design/development. Stay tuned!</em>
             </p>
           </div>
           
