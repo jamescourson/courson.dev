@@ -1,0 +1,17 @@
+[
+  {
+    "title": "Can I use...",
+    "url": "https://caniuse.com/",
+    "description": "A great tool for comparing different browsers' support of front-end technologies."
+  },
+  {
+    "title": "MDN",
+    "url": "https://developer.mozilla.org/",
+    "description": "High-quality documentation for all things web development. If I could pick just one resource for web development, this would be it."
+  },
+  {
+    "title": "Picular",
+    "url": "https://www.picular.co/",
+    "description": "A search engine for colors. Excellent for refining color combinations, or for more arbitrary color names like \"slate\" or \"cherry\"."
+  }
+]
