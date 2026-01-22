@@ -17,16 +17,20 @@ const Resources = () => {
     <main id="page-resources">
       <hgroup>
         <h1>Resources</h1>
-        <em>Some development resources and tools that I use often.</em>
+        <em>Some of my favorite development tools.</em>
         <hr className="hr-partial" />
       </hgroup>
 
       <ul>
         {resourceList.map(({ title, url, description }, i) => (
           <li key={i}>
-            <h3>{title}</h3>
+            <hgroup>
+              <h3>{title}</h3>
+            </hgroup>
             <em>{description}</em> <br />
-            <small><a href={url}>Check it out</a></small>
+            <small>
+              <a href={url} target="_blank">Visit site</a>  
+            </small>
           </li>
         ))}
       </ul>

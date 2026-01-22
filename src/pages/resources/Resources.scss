@@ -1,6 +1,18 @@
+@use '~/styles/mixins';
+
 #page-resources {
-  ul li h3 {
-    margin-bottom: 0.25em;
+  ul li {
+    max-width: 360px;
+    height: auto;
+
+    hgroup {
+      display: flex;
+      flex-direction: column;
+      
+      h3 {
+        margin-bottom: 0.25em;
+      }
+    }
   }
 }
 
