@@ -2,21 +2,26 @@ import { useEffect, useState } from 'react';
 import { Link } from 'react-router';
 
 import { default as todoListJson } from '~/data/todo.json';
+import { default as changelogJson } from '~/data/changelog.json';
 
 import './Home.scss';
 
 
 const Home = () => {
   const [todoList, setTodoList] = useState([]);
+  const [changelog, setChangelog] = useState([]);
 
-  // sort by date descending
-  const sortTodo = () =>
-    todoListJson.toSorted((a, b) => new Date(b.dateAdded) - new Date(a.dateAdded));
+  // sorts a given array of objects on specified field, descending
+  const sortByDateDesc = (arr, field) =>
+    arr.toSorted((a, b) => new Date(b[field]) - new Date(a[field]));
 
   useEffect(() => {
-    // initialize todoList
+    // initialize todoList and changelog
     if (todoList.length === 0)
-      setTodoList(sortTodo());
+      setTodoList(sortByDateDesc(todoListJson, 'dateAdded'));
+
+    if (changelog.length === 0)
+      setChangelog(sortByDateDesc(changelogJson, 'date'));
   });
 
   return (
@@ -57,13 +62,36 @@ const Home = () => {
         <h2>To do:</h2>
         <ul>
           {todoList.map(({ content }, i) => (
-            <li key={i}><em>{content}</em></li>
+            <li key={i}>
+              <em>{content}</em>
+            </li>
           ))}
         </ul>
       </section>
 
       <section id="home-changelog">
         <h2>Changelog</h2>
+
+        <div>
+          {changelog.map(({ date, version, changes }, i) => (
+            <article key={i}>
+              <hgroup>
+                <b>v{version}</b> <br />
+                <small>
+                  <em>{date}</em>
+                </small>
+              </hgroup>
+              
+              <ul>
+                {changes.map((change, j) => (
+                  <li key={j}>
+                    <em>{change}</em>
+                  </li>
+                ))}
+              </ul>
+            </article>
+          ))}
+        </div>
       </section>
     </main>
   );
