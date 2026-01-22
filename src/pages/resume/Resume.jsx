@@ -7,10 +7,10 @@ const Resume = () => (
       <h1>Resume</h1>
 
       <p>
-        <em>A brief overview of my professional history.</em> <br />
+        <em>A condensed overview of my professional history.</em> <br />
         <small>
           Note: For readability, responsibility summaries for
-          each role have been omitted from this web version.
+          each role have been omitted from this version.
         </small>
       </p>
 
