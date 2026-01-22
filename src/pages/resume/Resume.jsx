@@ -9,7 +9,7 @@ const Resume = () => (
       <p>
         <em>A condensed overview of my professional history.</em> <br />
         <small>
-          Note: For readability, role details have been omitted from the web version.
+          <b>Note</b>: For readability, role details have been omitted from the web version.
         </small>
       </p>
 
