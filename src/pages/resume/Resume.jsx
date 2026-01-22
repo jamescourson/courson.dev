@@ -16,8 +16,8 @@ const Resume = () => (
       <em id="resume-downloads">
         <b>
           Detailed, one-page downloads 🠚&nbsp;
-          <a href="james-courson.pdf" download>.pdf</a>,&nbsp;
-          <a href="james-courson.docx" download>.docx</a>&nbsp;
+          <a href="/resume/james-courson.pdf" download>.pdf</a>,&nbsp;
+          <a href="/resume/james-courson.docx" download>.docx</a>&nbsp;
         </b> <br />
       </em>
       <hr className='hr-partial' />
