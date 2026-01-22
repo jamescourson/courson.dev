@@ -25,10 +25,10 @@ const FunFacts = () => {
       <hgroup>
         <h2>Fun Facts</h2>
         <em>
-          Some relevant to my career, others not at all. <br />
+          A few relevant to my career, but most not at all. <br />
           That's what makes them fun!
         </em>
-        <small>* not actually live.</small>
+        <small>* not actually live</small>
         <hr className="hr-partial" />
       </hgroup>
 

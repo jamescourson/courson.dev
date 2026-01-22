@@ -8,6 +8,10 @@ const Resources = () => (
       <em>Some development resources and tools that I use often.</em>
       <hr className="hr-partial" />
     </hgroup>
+
+    <div>
+      <b>TODO: actually add some resources</b>
+    </div>
   </main>
 );
 

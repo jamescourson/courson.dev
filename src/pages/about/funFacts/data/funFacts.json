@@ -3,7 +3,7 @@
     "id": "about-color",
     "figure": "#0B6623",
     "caption": "Favorite Color",
-    "note": "I use it in everything",
+    "note": "runner-up: SaddleBrown",
     "colorOverride": "#0B6623"
   },
   {
@@ -20,21 +20,12 @@
   {
     "id": "about-rebuilds",
     "figure": 5,
-    "caption": "Times I've Rebuilt This Entire Site On A Whim",
+    "caption": "Times I've Rebuilt This Entire Site For No Reason At All",
     "interval": {
       "step": [0, 1],
       "timeout": [15000, 60000]
     },
     "colorOverride": false
-  },
-  {
-    "figure": "Developer at InfoBate",
-    "caption": "Current Role"
-  },
-  {
-    "figure": 6,
-    "unit": "years",
-    "caption": "Professional Experience"
   },
   {
     "figure": "Flowering Dogwood",
@@ -48,8 +39,8 @@
   },
   {
     "figure": "Noita",
-    "caption": "Favorite Video Game",
-    "note": "current"
+    "caption": "Current Favorite Video Game",
+    "note": "this one changes constantly"
   },
   {
     "figure": "J.S. Bach",
@@ -62,7 +53,13 @@
   },
   {
     "figure": "Modest Mouse",
-    "caption": "Favorite Band"
+    "caption": "Favorite Band",
+    "note": "RIP Jeremiah Green"
+  },
+  {
+    "figure": "6",
+    "unit": "years",
+    "caption": "Professional Experience"
   }
 ]
 
