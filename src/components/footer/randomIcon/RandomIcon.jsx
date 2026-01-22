@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { getNewRandomElement } from "../../util";
+import { getNewRandomElement } from "../../../util";
 
 import './RandomIcon.scss';
 

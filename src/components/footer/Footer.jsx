@@ -1,5 +1,5 @@
 import { useEffect, useState } from 'react';
-import RandomIcon from '../randomIcon/RandomIcon';
+import RandomIcon from './randomIcon/RandomIcon';
 
 import './Footer.scss';
 
