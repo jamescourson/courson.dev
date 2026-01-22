@@ -1,0 +1,36 @@
+@use '~/styles/mixins';
+@use '~/styles/fonts';
+
+
+.fact-card {
+  @include mixins.bg-paper;
+  @include mixins.border;
+  @include mixins.shadow-heavy;
+
+  @include fonts.jbm;
+  font-size: 0.75em;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+  text-align: center;
+  padding: 1em;
+
+  box-sizing: border-box;
+  width: 240px;
+  height: 6em;
+
+  @media (max-width: 820px) {
+    width: 100%;
+  }
+  
+  span {
+    font-size: 1.35em;
+  }
+
+  small {
+    font-size: .7em;
+  }
+}
+

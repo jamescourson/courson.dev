@@ -1,0 +1,67 @@
+[
+  {
+    "id": "about-color",
+    "figure": "#0B6623",
+    "caption": "Favorite Color",
+    "note": "I use it in everything",
+    "colorOverride": "#0B6623"
+  },
+  {
+    "id": "about-coffee",
+    "figure": [0, 400],
+    "unit": "ml",
+    "caption": "Coffee Consumed Today",
+    "interval": {
+      "step": [0, 35],
+      "timeout": [24000, 48000]
+    },
+    "colorOverride": "#6F4E37"
+  },
+  {
+    "id": "about-rebuilds",
+    "figure": 5,
+    "caption": "Times I've Rebuilt This Entire Site On A Whim",
+    "interval": {
+      "step": [0, 1],
+      "timeout": [15000, 60000]
+    },
+    "colorOverride": false
+  },
+  {
+    "figure": "Developer at InfoBate",
+    "caption": "Current Role"
+  },
+  {
+    "figure": 6,
+    "unit": "years",
+    "caption": "Professional Experience"
+  },
+  {
+    "figure": "Flowering Dogwood",
+    "caption": "Favorite Tree",
+    "colorOverride": "floralwhite"
+  },
+  {
+    "figure": "Gray Catbird",
+    "caption": "Favorite Bird",
+    "colorOverride": "#96928A"
+  },
+  {
+    "figure": "Noita",
+    "caption": "Favorite Video Game",
+    "note": "current"
+  },
+  {
+    "figure": "J.S. Bach",
+    "caption": "Favorite Composer"
+  },
+  {
+    "figure": "Cherry",
+    "caption": "Favorite Wood Species"
+  },
+  {
+    "figure": "Modest Mouse",
+    "caption": "Favorite Band"
+  }
+]
+
