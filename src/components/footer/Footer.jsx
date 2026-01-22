@@ -5,16 +5,22 @@ import './Footer.scss';
 
 
 const defaultVersion = '0.0.0';
+const defaultLastUpdated = 'N/A';
 
 const Footer = () => {
   const [version, setVersion] = useState(defaultVersion);
-  const lastUpdated = new Date().toLocaleDateString();
+  const [lastUpdated, setLastUpdated] = useState(defaultLastUpdated);
   const currentYear = new Date().getFullYear();
 
   useEffect(() => {
     fetch('version.txt')
       .then(res => res.text())
-      .then(text => setVersion(text.trim()))
+      .then(text => {
+        // split version and date into array
+        const versionAndDate = text.trim().split('\n');
+        setVersion(versionAndDate[0]);
+        setLastUpdated(versionAndDate[1]);
+      })
       .catch(() => setVersion(defaultVersion))
   }, []);
 

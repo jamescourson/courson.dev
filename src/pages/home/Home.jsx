@@ -55,7 +55,7 @@ const Home = () => {
         <hr className="hr-partial" />
         <h2>To do:</h2>
         <ul>
-          {todoList.map(({ content, dateAdded }, i) => (
+          {todoList.map(({ content }, i) => (
             <li key={i}><em>{content}</em></li>
           ))}
         </ul>

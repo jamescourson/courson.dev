@@ -3,14 +3,16 @@ import { resolve } from "path";
 
 
 // get version number
-const outputPath = resolve(process.cwd(), "public/version.txt");
 const packageObj = JSON.parse(
   readFileSync(resolve(process.cwd(), "package.json"), "utf8"));
 const version = packageObj.version;
+  
+const outputPath = resolve(process.cwd(), "public/version.txt");
+const outputString = `${version}\n${new Date().toLocaleDateString()}\n`;
 
 // write to file
-writeFileSync(outputPath, `${version}\n`);
+writeFileSync(outputPath, outputString);
 
-// confirm write during build
+// verify write during build
 console.log(`${version} ➔ public/version.txt`);
 
