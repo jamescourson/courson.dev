@@ -1,7 +1,7 @@
 import { useEffect, useState } from 'react';
 import { Link } from 'react-router';
 
-import { default as todoListJson } from '../../data/todo.json';
+import { default as todoListJson } from '~/data/todo.json';
 
 import './Home.scss';
 

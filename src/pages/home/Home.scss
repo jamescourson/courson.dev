@@ -1,6 +1,6 @@
-@use '../../styles/mixins';
-@use '../../styles/fonts';
-@use '../../styles/colors' as *;
+@use '~/styles/mixins';
+@use '~/styles/fonts';
+@use '~/styles/colors' as *;
 
 #page-home {
   display: inline-flex;

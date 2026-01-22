@@ -1,6 +1,6 @@
-@use '../../styles/mixins';
-@use '../../styles/colors' as *;
-@use '../../styles/fonts';
+@use '~/styles/mixins';
+@use '~/styles/colors' as *;
+@use '~/styles/fonts';
 
 #page-resume {
   display: inline-flex;
