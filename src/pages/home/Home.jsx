@@ -1,4 +1,4 @@
-import { useEffect, useState } from 'react';
+import { useEffect, useState, version } from 'react';
 import { Link } from 'react-router';
 
 import { default as todoListJson } from '~/data/todo.json';
@@ -11,17 +11,27 @@ const Home = () => {
   const [todoList, setTodoList] = useState([]);
   const [changelog, setChangelog] = useState([]);
 
-  // sorts a given array of objects on specified field, descending
-  const sortByDateDesc = (arr, field) =>
-    arr.toSorted((a, b) => new Date(b[field]) - new Date(a[field]));
+  // returns given version number without any periods
+  // example: getVersionWholeNumber("2.4.3") -> 243
+  const getVersionWholeNumber = version =>
+    parseInt(version.split('.').join(''));
+
+  // sort todoList items by `dateAdded` descending
+  const sortTodoList = () =>
+    todoListJson.toSorted((a, b) => new Date(b.dateAdded) - new Date(a.dateAdded));
+
+  // sort changelog items by `version` descending
+  const sortChangelog = () =>
+    changelogJson.toSorted((a, b) =>
+      getVersionWholeNumber(b.version) - getVersionWholeNumber(a.version));
 
   useEffect(() => {
     // initialize todoList and changelog
     if (todoList.length === 0)
-      setTodoList(sortByDateDesc(todoListJson, 'dateAdded'));
+      setTodoList(sortTodoList());
 
     if (changelog.length === 0)
-      setChangelog(sortByDateDesc(changelogJson, 'date'));
+      setChangelog(sortChangelog());
   });
 
   return (
@@ -61,7 +71,7 @@ const Home = () => {
         <hr className="hr-partial" />
         <h2>To do:</h2>
         <ul>
-          {todoList.map(({ content }, i) => (
+          {todoList?.map(({ content }, i) => (
             <li key={i}>
               <em>{content}</em>
             </li>
@@ -73,7 +83,7 @@ const Home = () => {
         <h2>Changelog</h2>
 
         <div>
-          {changelog.map(({ date, version, changes }, i) => (
+          {changelog?.map(({ date, version, changes }, i) => (
             <article key={i}>
               <hgroup>
                 <b>v{version}</b> <br />

@@ -1,9 +1,18 @@
 [
   {
-    "date": "1/22/2026",
+    "timestamp": "1/22/2026, 4:05:34 PM",
     "version": "1.0.0",
     "changes": [
       "Initial release."
+    ]
+  },
+  {
+    "timestamp": "1/22/2026, 6:52:13 PM",
+    "version": "1.0.1",
+    "changes": [
+      "Fix inconsistent unicode rendering on list items",
+      "Fix 404 on refresh (switch to HashRouter)",
+      "Enable workflow run on push to `master`"
     ]
   }
 ]
