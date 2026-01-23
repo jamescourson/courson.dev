@@ -83,12 +83,12 @@ const Home = () => {
         <h2>Changelog</h2>
 
         <div>
-          {changelog?.map(({ date, version, changes }, i) => (
+          {changelog?.map(({ timestamp, version, changes }, i) => (
             <article key={i}>
               <hgroup>
                 <b>v{version}</b> <br />
                 <small>
-                  <em>{date}</em>
+                  <em>{timestamp}</em>
                 </small>
               </hgroup>
               

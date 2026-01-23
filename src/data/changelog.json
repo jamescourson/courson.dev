@@ -14,5 +14,14 @@
       "Fix 404 on refresh (switch to HashRouter)",
       "Enable workflow run on push to `master`"
     ]
+  },
+  {
+    "timestamp": "1/22/2026, 8:20:25 PM",
+    "version": "1.0.2",
+    "changes": [
+      "Add MIT License",
+      "Update README",
+      "Show timestamps on changelog items"
+    ]
   }
 ]
