@@ -8,7 +8,7 @@ const packageObj = JSON.parse(
 const version = packageObj.version;
   
 const outputPath = resolve(process.cwd(), "public/version.txt");
-const outputString = `${version}\n${new Date().toLocaleDateString()}\n`;
+const outputString = `${version}\n${new Date().toUTCString()}\n`;
 
 // write to file
 writeFileSync(outputPath, outputString);
