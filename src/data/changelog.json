@@ -23,5 +23,14 @@
       "Update README",
       "Show timestamps on changelog items"
     ]
+  },
+  {
+    "timestamp": "1/22/2026, 9:44:51 PM",
+    "version": "1.0.3",
+    "changes": [
+      "Fix james.guide logo not loading on Projects page",
+      "Fix site background texture not loading",
+      "Add build instructions to README"
+    ]
   }
 ]
