@@ -18,4 +18,9 @@ This project uses [Vite](https://vite.dev/) and [Yarn](https://yarnpkg.com/) for
   yarn
   yarn dev
 ```
+### Create Local Build
+
+```bash
+  yarn build
+```
 
