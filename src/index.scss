@@ -2,7 +2,7 @@
 @use './styles/colors' as *;
 
 body {
-  background-image: url('bg/cardboard.png');
+  background-image: url('/bg/cardboard.png');
 }
 
 *::selection {
