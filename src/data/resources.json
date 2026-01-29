@@ -11,7 +11,12 @@
   },
   {
     "title": "Picular",
-    "url": "https://www.picular.co/",
+    "url": "https://picular.co/",
     "description": "A search engine for colors. Excellent for more arbitrary color names like \"slate\" or \"cherry\"."
+  },
+  {
+    "title": "CSS-Tricks",
+    "url": "https://css-tricks.com/",
+    "description": "Notes, guides, links, and articles about accessibility, responsive design, and all things CSS."
   }
 ]
