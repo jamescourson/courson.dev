@@ -26,6 +26,21 @@ const About = () => (
       </p>
     </section>
 
+    <section id="about-contact">
+      <hgroup>
+        <h2>Contact</h2>
+        <hr className="hr-partial" />
+        
+        <em>
+          You can connect with me on&nbsp;
+          <Link to="https://github.com/jamescourson">GitHub</Link> or&nbsp;
+          <Link to="https://linkedin.com/in/jamescourson">LinkedIn</Link>. <br />
+        </em>
+
+        <em>Or, get in touch via email: <b>james@courson.dev</b></em>
+      </hgroup>      
+    </section>
+
     <FunFacts />
   </main>
 );

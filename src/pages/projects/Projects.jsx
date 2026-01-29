@@ -8,7 +8,10 @@ const Projects = () => (
     <hgroup>
       <h1>Project Showcase</h1>
       <em>
-        <Link to="https://github.com/jamescourson/">GitHub</Link>
+        <Link to="https://github.com/jamescourson/">
+          <img src="/logos/github.svg" alt="GitHub Logo" />
+          GitHub
+        </Link>
       </em>
       <hr className="hr-partial" />
     </hgroup>

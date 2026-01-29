@@ -3,6 +3,18 @@
 
 
 #page-projects {
+  hgroup {
+    em a {
+      display: inline-flex;
+      flex-direction: row;
+      gap: .5em;
+
+      img {
+        height: 1em;
+      }
+    }
+  }
+
   #projects-list {
     display: flex;
     flex-flow: row wrap;

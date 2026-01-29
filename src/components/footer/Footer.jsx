@@ -1,4 +1,5 @@
 import { useEffect, useState } from 'react';
+import { Link } from 'react-router';
 import RandomIcon from './randomIcon/RandomIcon';
 
 import './Footer.scss';
@@ -35,6 +36,11 @@ const Footer = () => {
       </div>
 
       <small>Last Updated: {lastUpdated}</small>
+
+      <small>
+        <Link to="https://github.com/jamescourson">GitHub</Link>,&nbsp;
+        <Link to="https://linkedin.com/in/jamescourson">LinkedIn</Link>
+      </small>
     </footer>
   );
 }
