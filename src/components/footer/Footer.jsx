@@ -38,8 +38,8 @@ const Footer = () => {
       <small>Last Updated: {lastUpdated}</small>
 
       <small>
-        <Link to="https://github.com/jamescourson">GitHub</Link>,&nbsp;
-        <Link to="https://linkedin.com/in/jamescourson">LinkedIn</Link>
+        <Link to="https://github.com/jamescourson" target="_blank">GitHub</Link>,&nbsp;
+        <Link to="https://linkedin.com/in/jamescourson" target="_blank">LinkedIn</Link>
       </small>
     </footer>
   );

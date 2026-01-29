@@ -33,8 +33,8 @@ const About = () => (
         
         <em>
           You can connect with me on&nbsp;
-          <Link to="https://github.com/jamescourson">GitHub</Link> or&nbsp;
-          <Link to="https://linkedin.com/in/jamescourson">LinkedIn</Link>. <br />
+          <Link to="https://github.com/jamescourson" target="_blank">GitHub</Link> or&nbsp;
+          <Link to="https://linkedin.com/in/jamescourson" target="_blank">LinkedIn</Link>. <br />
         </em>
 
         <em>Or, get in touch via email: <b>james@courson.dev</b></em>

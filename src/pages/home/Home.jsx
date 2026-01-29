@@ -66,7 +66,13 @@ const Home = () => {
           &nbsp;<a href="/resume/james-courson.docx" download>.docx</a>
         </small>
 
-        <em>Get in touch via email: <b id="email">james@courson.dev</b></em>
+        <em>
+          You can connect with me on&nbsp;
+          <Link to="https://github.com/jamescourson" target="_blank">GitHub</Link> or&nbsp;
+          <Link to="https://linkedin.com/in/jamescourson" target="_blank">LinkedIn</Link>. <br />
+        </em>
+
+        <em>Or, get in touch via email: <b id="email">james@courson.dev</b></em>
       </article>
 
       <section id="home-todo">
