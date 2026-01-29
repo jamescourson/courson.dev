@@ -1,9 +1,5 @@
 [
   {
-    "content": "Fix background texture opacity issue on Chromium-based browsers",
-    "dateAdded": "1/21/2026"
-  },
-  {
     "content": "Add collapse/expand toggle for longer page sections",
     "dateAdded": "1/22/2026"
   },
