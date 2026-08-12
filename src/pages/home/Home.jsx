@@ -1,4 +1,4 @@
-import { useEffect, useState, version } from 'react';
+import { useEffect, useState } from 'react';
 import { Link } from 'react-router';
 
 import { default as todoListJson } from '~/data/todo.json';
@@ -26,7 +26,7 @@ const Home = () => {
       getVersionWholeNumber(b.version) - getVersionWholeNumber(a.version));
 
   useEffect(() => {
-    // initialize todoList and changelog
+    // initialize todoList, changelog
     if (todoList.length === 0)
       setTodoList(sortTodoList());
 
@@ -39,17 +39,10 @@ const Home = () => {
       <hgroup>
         <h1>Hello!</h1>
         <p>
-          I'm James, a developer based in <b>Pittsburgh, PA, USA.</b> <br />
-          I build and maintain practical, responsive web applications.
+          I'm <b>James</b>, a <b>frontend-focused developer</b> based in Pittsburgh, PA, USA. <br />
+          I design, build, and maintain responsive web interfaces. <br />
+          I'm currently focusing on <b>agentic workflows and token optimization</b>.
         </p>
-
-        <h2>While you're here:</h2>
-        
-        <ul>
-          <li>Learn a bit <Link to="/about">about me</Link></li>
-          <li>Take a look at my <Link to="/projects">projects</Link></li>
-          <li>Pick up a new dev tool from my <Link to="/resources">resource list</Link></li>
-        </ul>
         
         <hr className="hr-partial" />
       </hgroup>
@@ -59,7 +52,7 @@ const Home = () => {
           Looking for a competent frontend designer/developer for your next idea? <br />
         </em>
         
-        <Link to="/resume" id="resume-link"><b>Check out my resume!</b></Link>
+        <Link to="/resume" id="resume-link"><b>Take a look at my resume!</b></Link>
         <small>
           Quick downloads:
           &nbsp;<a href="/resume/james-courson.pdf" download>.pdf</a>,
@@ -72,7 +65,7 @@ const Home = () => {
           <Link to="https://linkedin.com/in/jamescourson" target="_blank">LinkedIn</Link>. <br />
         </em>
 
-        <em>Or, get in touch via email: <b id="email">james@courson.dev</b></em>
+        <em>Or, get in touch via email: <a href="mailto:james@courson.dev" target="_blank"><b id="email">james@courson.dev</b></a></em>
       </article>
 
       <section id="home-todo">

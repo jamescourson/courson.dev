@@ -40,5 +40,14 @@
       "Update resume downloads",
       "Update about details"
     ]
+  },
+  {
+    "timestamp": "8/12/2026, 12:36:45 PM",
+    "version": "1.1.0",
+    "changes": [
+      "Fix postbuild version write",
+      "Rebuild homepage + resume, consolidate projects + about",
+      "Embed PDF resume"
+    ]
   }
 ]

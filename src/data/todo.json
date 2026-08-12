@@ -1,14 +1,10 @@
 [
   {
-    "content": "Add collapse/expand toggle for longer page sections",
+    "content": "Add accordion widget for longer sections",
     "dateAdded": "1/22/2026"
   },
   {
     "content": "Add dark theme + toggle button",
     "dateAdded": "1/20/2026"
-  },
-  {
-    "content": "Rewrite Resume component to render data from JSON",
-    "dateAdded": "1/19/2026"
   }
 ]

@@ -1,12 +1,11 @@
 {
   "name": "courson.dev",
   "private": true,
-  "version": "1.0.3",
+  "version": "1.1.0",
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "vite build",
-    "postbuild": "node writeVersion.js",
+    "build": "vite build && node writeVersion.js",
     "lint": "eslint .",
     "preview": "vite preview"
   },
