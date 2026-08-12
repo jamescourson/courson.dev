@@ -39,8 +39,7 @@
   },
   {
     "figure": "Noita",
-    "caption": "Current Favorite Video Game",
-    "note": "this one changes constantly"
+    "caption": "Current Favorite Video Game"
   },
   {
     "figure": "J.S. Bach",
@@ -48,16 +47,15 @@
   },
   {
     "figure": "Cherry",
-    "caption": "Favorite Wood Species",
+    "caption": "Favorite Lumber",
     "colorOverride": "#CB6D51"
   },
   {
     "figure": "Modest Mouse",
-    "caption": "Favorite Band",
-    "note": "RIP Jeremiah Green"
+    "caption": "Favorite Band"
   },
   {
-    "figure": "6",
+    "figure": "7",
     "unit": "years",
     "caption": "Professional Experience"
   }
