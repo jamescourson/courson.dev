@@ -20,10 +20,10 @@ const About = () => (
       <p>
         I'm <b>27 years old</b> with <b>7 years</b> of professional development experience. <br />
         My current role has me focusing on <b>React with react-admin</b> and <b>AWS CDK</b>. <br />
-        I've also embraced agentic AI development, mostly with <b>Claude Code</b>. <br />
+        I've also embraced agentic AI development for my tasks, mostly with <b>Claude Code</b>. <br />
         <br />
-        Outside of work, my hobbies include <b>woodworking, birdwatching, and cooking at home</b>. <br />
-        I'm also interested in <b>furniture design, houseplants, and good coffee</b>.
+        Outside of work, my hobbies include <b>woodworking and birdwatching</b>. <br />
+        I'm also interested in <b>designing furniture, houseplants, and good coffee</b>.
       </p>
     </section>
 
