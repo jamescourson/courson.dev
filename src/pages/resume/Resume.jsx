@@ -1,4 +1,4 @@
-import EmbedPDF from '../../components/embedPDF/embedPDF';
+import { PDFViewer } from '~/components/PDFViewer/PDFViewer';
 
 import './Resume.scss';
 
@@ -17,7 +17,10 @@ const Resume = () => (
       </em>
       <hr className='hr-partial' />
 
-      <EmbedPDF url="resume/james-courson.pdf" />
+      <PDFViewer config={{
+        src: "/resume/james-courson.pdf",
+        theme: { preference: 'light' }
+      }} />
     </hgroup>
   </main>
 );

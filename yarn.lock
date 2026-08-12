@@ -165,6 +165,326 @@
   resolved "https://registry.yarnpkg.com/@bufbuild/protobuf/-/protobuf-2.10.2.tgz#d7c063301f2a33095fc202f06bf3cce0c138dfcd"
   integrity sha512-uFsRXwIGyu+r6AMdz+XijIIZJYpoWeYzILt5yZ2d3mCjQrWUTVpVD9WL/jZAbvp+Ed04rOhrsk7FiTcEDseB5A==
 
+"@embedpdf/core@2.15.0", "@embedpdf/core@^2.15.0":
+  version "2.15.0"
+  resolved "https://registry.yarnpkg.com/@embedpdf/core/-/core-2.15.0.tgz#6c3d962910afdd63f88725c92afb872f1cf430e4"
+  integrity sha512-0yaPCgvbE5/cBf+5rHBUsRUm8i6hSl894xjC19HTOmb8DqrhxOxbOQSyjiTbJTQK52zZrNL79SigsPgGHPrYWA==
+  dependencies:
+    "@embedpdf/engines" "2.15.0"
+    "@embedpdf/models" "2.15.0"
+
+"@embedpdf/engines@2.15.0", "@embedpdf/engines@^2.15.0":
+  version "2.15.0"
+  resolved "https://registry.yarnpkg.com/@embedpdf/engines/-/engines-2.15.0.tgz#2e068fe4959575d82ec489fae01b9630f15ac6e8"
+  integrity sha512-fW5UoqpDRkAWDbGMl3y6ril3l2qXzoYz+klt4O2P8gWzYzhG3fmr0L2+qzjD+BPO+QfYMNNvmBI+teT/nYjm/g==
+  dependencies:
+    "@embedpdf/fonts-arabic" "1.0.0"
+    "@embedpdf/fonts-hebrew" "1.0.0"
+    "@embedpdf/fonts-jp" "1.0.0"
+    "@embedpdf/fonts-kr" "1.0.0"
+    "@embedpdf/fonts-latin" "1.0.0"
+    "@embedpdf/fonts-sc" "1.0.0"
+    "@embedpdf/fonts-tc" "1.0.0"
+    "@embedpdf/models" "2.15.0"
+    "@embedpdf/pdfium" "2.15.0"
+
+"@embedpdf/fonts-arabic@1.0.0":
+  version "1.0.0"
+  resolved "https://registry.yarnpkg.com/@embedpdf/fonts-arabic/-/fonts-arabic-1.0.0.tgz#32cf6e9b13a73827800278db7ae832981f9764df"
+  integrity sha512-SnGvQb+LwPZQO2WjjvlmXrJZolJUfLYbLZQSaYUw1vrQyMyJKT4LewvJGG+hZ+Yz2fz7OMIQ+4Gc98mGODZtOg==
+
+"@embedpdf/fonts-hebrew@1.0.0":
+  version "1.0.0"
+  resolved "https://registry.yarnpkg.com/@embedpdf/fonts-hebrew/-/fonts-hebrew-1.0.0.tgz#5ad24258c1606fa95dbb4ba5fa67757502c58edc"
+  integrity sha512-5HVAKGL7VqPeTxxADDrSqAFBxfmAXdP8fIqrPwJIKkqdK2643bOer8CqnnpO3/nPoFhkzxhttWMB9BGiqSW62w==
+
+"@embedpdf/fonts-jp@1.0.0":
+  version "1.0.0"
+  resolved "https://registry.yarnpkg.com/@embedpdf/fonts-jp/-/fonts-jp-1.0.0.tgz#03c643bde1e0e556bfa1cf4bbb7eafbe555aa9ac"
+  integrity sha512-BY2tv/mcICUUKf+M/bizf3RU65PMqKClJ/e5o9mgMibxyML0OQvEDwYMRPODQkKgJKXCO3ScHmVvcmXp6kt+fA==
+
+"@embedpdf/fonts-kr@1.0.0":
+  version "1.0.0"
+  resolved "https://registry.yarnpkg.com/@embedpdf/fonts-kr/-/fonts-kr-1.0.0.tgz#4652ae3b26a83c3c7e499f0b7b60375fb9bb1d46"
+  integrity sha512-bh88HXSvOBS581kgmihWY7Ijp9hBsvlmXogFG5LSNx9UBAobRcakZiFMGieRBc06hUSkpo7WhjaFM/z/SfQ8dQ==
+
+"@embedpdf/fonts-latin@1.0.0":
+  version "1.0.0"
+  resolved "https://registry.yarnpkg.com/@embedpdf/fonts-latin/-/fonts-latin-1.0.0.tgz#b646560c2c147f0ccbf04ae26ef18c7822506240"
+  integrity sha512-LLYysdr8O6sRNzhmW3PbF3AeA8xnqvOi4XLFfIfNlW5uEZ+qsJdcfd78Q78sFJMhlaOAYFMziMMsnOzmx463rA==
+
+"@embedpdf/fonts-sc@1.0.0":
+  version "1.0.0"
+  resolved "https://registry.yarnpkg.com/@embedpdf/fonts-sc/-/fonts-sc-1.0.0.tgz#a52a70b3cb36e9e49148f2055f51d0fa387f41bf"
+  integrity sha512-ETXl7XCwaQLSSvMO3EUDwMNqtL64kX2LlFxarTRi/NsIGGOIxUurGfKtrkmtnKHrWy1jAJSt6oxK2uJhvdvQIw==
+
+"@embedpdf/fonts-tc@1.0.0":
+  version "1.0.0"
+  resolved "https://registry.yarnpkg.com/@embedpdf/fonts-tc/-/fonts-tc-1.0.0.tgz#21262bb512ede384c3fb84b952a6812b98e793f4"
+  integrity sha512-rGZJbVD6DYS5BbXdpEMnWkpVF0Knar+bsiyb2o3+YRx7O8eyFubEBQUSUInirQk69HA6fc3GhYCg7TyC/oD76Q==
+
+"@embedpdf/models@2.15.0":
+  version "2.15.0"
+  resolved "https://registry.yarnpkg.com/@embedpdf/models/-/models-2.15.0.tgz#dff75043166abf361c850f294ec242ff4eacbdd8"
+  integrity sha512-gHr+hAN094kmzCB+6J2zaiHS8o4tKeY0IfTOxVEGwqntgKk8LCWD3s+P7dlVY3V8XUVmdyFWhFt7zwm0uw+VMg==
+
+"@embedpdf/pdfium@2.15.0":
+  version "2.15.0"
+  resolved "https://registry.yarnpkg.com/@embedpdf/pdfium/-/pdfium-2.15.0.tgz#b073cf9cee2252507c4fc81fb47a156cb2a19662"
+  integrity sha512-KgpRND2MYcdbhzb2EMb4WzWcJYrR0A6JXvhMv4WthEHKt6qmNo2v/MC68bpYvpveYT9GNnUnY/+TG5MpXY3pRw==
+
+"@embedpdf/plugin-annotation@2.15.0":
+  version "2.15.0"
+  resolved "https://registry.yarnpkg.com/@embedpdf/plugin-annotation/-/plugin-annotation-2.15.0.tgz#b59d19ef7a1ac0750cdfdf43762b9a88ba80f01a"
+  integrity sha512-1g7Ls9ak/TLaRY42H1GxLriH91yBxaP3ezFDbyGSfW/nV1V5tLJ8d1OZG7Dm1HbhAcnzSt7nOXOZRqFnmhpjyQ==
+  dependencies:
+    "@embedpdf/models" "2.15.0"
+    "@embedpdf/utils" "2.15.0"
+
+"@embedpdf/plugin-attachment@2.15.0":
+  version "2.15.0"
+  resolved "https://registry.yarnpkg.com/@embedpdf/plugin-attachment/-/plugin-attachment-2.15.0.tgz#6ba26c13a660b2ca1f90cb51ffbf109e905def88"
+  integrity sha512-vv8uzyqNSujrXKsmIKyV9D/8UnWfyo/MLY5lSQFoFy8Egecbqlbe8LTFcyHYA3fNhvKds+JFLV1khxnnp6tBoA==
+  dependencies:
+    "@embedpdf/models" "2.15.0"
+
+"@embedpdf/plugin-bookmark@2.15.0":
+  version "2.15.0"
+  resolved "https://registry.yarnpkg.com/@embedpdf/plugin-bookmark/-/plugin-bookmark-2.15.0.tgz#990a13f6257b444e7f9adde26b4277538d5132f8"
+  integrity sha512-pioAUfmKWiM0uc1PkGL3um7SPpcSrtcNhzdV6sgKDtLYxNBzObaCRbsQzGr0vFRayMNkDIlsRsx2yiLK6D+JcQ==
+  dependencies:
+    "@embedpdf/models" "2.15.0"
+
+"@embedpdf/plugin-capture@2.15.0":
+  version "2.15.0"
+  resolved "https://registry.yarnpkg.com/@embedpdf/plugin-capture/-/plugin-capture-2.15.0.tgz#56d63440f431534840325d3560511b2c4baa4e29"
+  integrity sha512-uPmO/U1WMitYQMbXnMj+H4lla4bTj+mtxLPbu4Ck2P/f5MK4Id1LT+AGo8zvVRELYLWyWrkS/R/5FIhB+xpAIA==
+  dependencies:
+    "@embedpdf/models" "2.15.0"
+
+"@embedpdf/plugin-commands@2.15.0":
+  version "2.15.0"
+  resolved "https://registry.yarnpkg.com/@embedpdf/plugin-commands/-/plugin-commands-2.15.0.tgz#bb91d5c048d5f8918913c0e00898dea0e1826363"
+  integrity sha512-2XgtXSRlkZRtI108xaV3p3zxBJ4uMHpwqrMXvbTRcCFMU5lXH+ntjTYy7/j6mI5ghtp03/pLeZxD5rG/CwRixg==
+  dependencies:
+    "@embedpdf/models" "2.15.0"
+
+"@embedpdf/plugin-document-manager@2.15.0", "@embedpdf/plugin-document-manager@^2.15.0":
+  version "2.15.0"
+  resolved "https://registry.yarnpkg.com/@embedpdf/plugin-document-manager/-/plugin-document-manager-2.15.0.tgz#2a9cfc2a9942c54d23432209942448a1a81b0c12"
+  integrity sha512-M8EwOuonICSHfOklTMwk0XfyPhG9v9EMDRU9Pvz0zAe1DJzUPtIxUh+CgxtFSSnUeKSfxE7JpTRryrbUW0XcGg==
+  dependencies:
+    "@embedpdf/models" "2.15.0"
+
+"@embedpdf/plugin-export@2.15.0":
+  version "2.15.0"
+  resolved "https://registry.yarnpkg.com/@embedpdf/plugin-export/-/plugin-export-2.15.0.tgz#877bc657662e1e2f7e5dc7f3928b86933f7c2bcd"
+  integrity sha512-GFmC4nkZZnH1swivfSwLako2YV6d60QPSPUqvozQaMWDuE8rNq/ElYISVihkEAxbhI4h3q5AkhDKyCVFeJJVbg==
+  dependencies:
+    "@embedpdf/models" "2.15.0"
+
+"@embedpdf/plugin-form@2.15.0":
+  version "2.15.0"
+  resolved "https://registry.yarnpkg.com/@embedpdf/plugin-form/-/plugin-form-2.15.0.tgz#c7adf82fcea290538ed133c9120a883422d88caa"
+  integrity sha512-0kUqf/BHsNeHhUAdcSz3Dsqy5qNvDgQP6IhhMq5KLH+mtMoUuYiEyOGwHSY97V4vxAG9MF/UexT+CP4LfL3Yvg==
+  dependencies:
+    "@embedpdf/models" "2.15.0"
+    "@embedpdf/utils" "2.15.0"
+
+"@embedpdf/plugin-fullscreen@2.15.0":
+  version "2.15.0"
+  resolved "https://registry.yarnpkg.com/@embedpdf/plugin-fullscreen/-/plugin-fullscreen-2.15.0.tgz#20bede54fd33c223fad2a517383e3a50de13d912"
+  integrity sha512-DYyoUrWD9E6NkPCaeGZQH/qpKUgJ20rXi9tOtZIc/cRAvynfcjWNCamwWXd7cDbLwrkbo+5rJIwTponKLXh5oQ==
+  dependencies:
+    "@embedpdf/models" "2.15.0"
+
+"@embedpdf/plugin-history@2.15.0":
+  version "2.15.0"
+  resolved "https://registry.yarnpkg.com/@embedpdf/plugin-history/-/plugin-history-2.15.0.tgz#ccc8bc2c95f4feff1033bf56d891417dca25a6f4"
+  integrity sha512-3Dk4Atc5vdHsTjC8tJ8MOGPcUJLkCWbMzt3sTllmyNc534qTZtUvFHDeaaB65u50EJGjFRpUJ6Xcnp9A81lMdg==
+  dependencies:
+    "@embedpdf/models" "2.15.0"
+
+"@embedpdf/plugin-i18n@2.15.0":
+  version "2.15.0"
+  resolved "https://registry.yarnpkg.com/@embedpdf/plugin-i18n/-/plugin-i18n-2.15.0.tgz#c20716af322e321c0cfc00784b543bd02f0581e4"
+  integrity sha512-xSbkJcj1Fc7dKyV7lhBU9d0xuH4wGKcPwRmkMxOvi3KJ/XD3zgfqdFMazDICN+rzth40gHSeRNhyCKZpXeYkuQ==
+  dependencies:
+    "@embedpdf/models" "2.15.0"
+
+"@embedpdf/plugin-interaction-manager@2.15.0":
+  version "2.15.0"
+  resolved "https://registry.yarnpkg.com/@embedpdf/plugin-interaction-manager/-/plugin-interaction-manager-2.15.0.tgz#d899c14f262358d7120124d5cf9d4e9df4dcf885"
+  integrity sha512-YCMvTvu4Fm1KNuEhj+CftzG+T6F1+/QhI7eaYft9Lp5xm3CYSXdR3pNfGwNFy5XkDUDwB1IscLTiU0q75viMCw==
+  dependencies:
+    "@embedpdf/models" "2.15.0"
+
+"@embedpdf/plugin-pan@2.15.0":
+  version "2.15.0"
+  resolved "https://registry.yarnpkg.com/@embedpdf/plugin-pan/-/plugin-pan-2.15.0.tgz#d58e88c949d4534b319f2efa8d6065542c9d3309"
+  integrity sha512-bgFM7xTJRNzkFs5CH9apv5USR7Db2fdbNVbHq/U1GanEyz/71gZGoDWUN9FF/FbNvBfSfvPYZDv9DLJYLbeoBQ==
+  dependencies:
+    "@embedpdf/models" "2.15.0"
+
+"@embedpdf/plugin-print@2.15.0":
+  version "2.15.0"
+  resolved "https://registry.yarnpkg.com/@embedpdf/plugin-print/-/plugin-print-2.15.0.tgz#b076a615854efd880c08a8b6f43cf212d220f5fe"
+  integrity sha512-IS6Wvi7zY0iozdYmVwfZXSjKURBe4AqhuyV1QtbcUS1hZxe0ASRETGiHe9ONpuokWemZmYDHNyTrdF7+5hdLEw==
+  dependencies:
+    "@embedpdf/models" "2.15.0"
+
+"@embedpdf/plugin-redaction@2.15.0":
+  version "2.15.0"
+  resolved "https://registry.yarnpkg.com/@embedpdf/plugin-redaction/-/plugin-redaction-2.15.0.tgz#1db9caae3b9276ff010decdd14f80fb9e387e622"
+  integrity sha512-H4WgRSSqBlWtP7sgDbAqWW/w6HAyjA3RS6lMuEmCMF19trDyQMdeAC8ZyQkFCYudFk9L+ydradSbNBYK18PfDw==
+  dependencies:
+    "@embedpdf/models" "2.15.0"
+    "@embedpdf/utils" "2.15.0"
+
+"@embedpdf/plugin-render@2.15.0", "@embedpdf/plugin-render@^2.15.0":
+  version "2.15.0"
+  resolved "https://registry.yarnpkg.com/@embedpdf/plugin-render/-/plugin-render-2.15.0.tgz#da1cfac73c3f8f8dcd064a7fc27d953b73eb2d3a"
+  integrity sha512-EVfn8XsdU10VgrSs9qKo8nqjfUyt2/NWFJtlW3nX4sZ74Pi9xSvEa7/B99/LYZZMa0ENzi+4HKAXiQ6NUXisDg==
+  dependencies:
+    "@embedpdf/models" "2.15.0"
+
+"@embedpdf/plugin-rotate@2.15.0":
+  version "2.15.0"
+  resolved "https://registry.yarnpkg.com/@embedpdf/plugin-rotate/-/plugin-rotate-2.15.0.tgz#2fcc5753f4f2064548c85b86a59ae9bd8ac798ab"
+  integrity sha512-mhfDC8NCQ8H6ati3O6smA6ZxZoMgPGtloEeY6gs61+zoxPKyXiuCpxZKJctRfYdrTdoRgXpFa3fKflwStMcgFg==
+  dependencies:
+    "@embedpdf/models" "2.15.0"
+
+"@embedpdf/plugin-scroll@2.15.0", "@embedpdf/plugin-scroll@^2.15.0":
+  version "2.15.0"
+  resolved "https://registry.yarnpkg.com/@embedpdf/plugin-scroll/-/plugin-scroll-2.15.0.tgz#b412f1f2ca842aea2a373eb9f24091d1f0050cca"
+  integrity sha512-UqjLH3lafrpqN1qcxIpfd1MfWW5Fdf6/4LjneUabHt+3gxy1qd2KU9oPR5wwinsh3vmjn90qURsnqIHL5jnaOg==
+  dependencies:
+    "@embedpdf/models" "2.15.0"
+
+"@embedpdf/plugin-search@2.15.0":
+  version "2.15.0"
+  resolved "https://registry.yarnpkg.com/@embedpdf/plugin-search/-/plugin-search-2.15.0.tgz#4dc1dc7c80bbf1f121f34cfb5208456439078048"
+  integrity sha512-mMzy8uo3xvDMjSc+xuBMgdI/mmmpgbZ6xKTmNxpF0d8BcaWu6Zp9a4ewamfjBwg8WF/qUW49U6HYZsiRr3NUEQ==
+  dependencies:
+    "@embedpdf/models" "2.15.0"
+
+"@embedpdf/plugin-selection@2.15.0":
+  version "2.15.0"
+  resolved "https://registry.yarnpkg.com/@embedpdf/plugin-selection/-/plugin-selection-2.15.0.tgz#a2f269c0b66ef96ea06ad68c731cd3233346194f"
+  integrity sha512-iEnhx0jeQrbze7WHkHhZtF21yfGBuqF2B+V2efLHT2O0a2fnof+PEVaQQRgERSfrwRvLvyEJL9ud54E41ahsRQ==
+  dependencies:
+    "@embedpdf/models" "2.15.0"
+    "@embedpdf/utils" "2.15.0"
+
+"@embedpdf/plugin-signature@2.15.0":
+  version "2.15.0"
+  resolved "https://registry.yarnpkg.com/@embedpdf/plugin-signature/-/plugin-signature-2.15.0.tgz#bd92cf81fbc0615dd944084190bce6ad30407aeb"
+  integrity sha512-aFD6sHExivqdCK3U2Xns/nsZxS9jhMAgdJTrumc3eenCzGbXAHhX7wkzgIDfZs3AyKRepbUnz9wmM6lNG+IKoQ==
+  dependencies:
+    "@embedpdf/models" "2.15.0"
+
+"@embedpdf/plugin-spread@2.15.0":
+  version "2.15.0"
+  resolved "https://registry.yarnpkg.com/@embedpdf/plugin-spread/-/plugin-spread-2.15.0.tgz#8e268adba5a885eca731f38bca7c9fc73326baf2"
+  integrity sha512-Gj1Nl9E/T92MkaBxL+BCH8WHfzvfM+Vb9vgTPi0gnV7Jr1SaWrtIQpMlYom21f4p9pT/m7KuBVz3xA+NV8r39A==
+  dependencies:
+    "@embedpdf/models" "2.15.0"
+
+"@embedpdf/plugin-stamp@2.15.0":
+  version "2.15.0"
+  resolved "https://registry.yarnpkg.com/@embedpdf/plugin-stamp/-/plugin-stamp-2.15.0.tgz#70548690f0020a417ded6e02825de1d5bc562910"
+  integrity sha512-QjrzwCUVYoRX/zp8FpMByGgmUxvovARmd+xSaMtH70iHAPZxpvSLJ9DpoV2sbtEiwnQYrIZJry6TzCtB2bNvXQ==
+  dependencies:
+    "@embedpdf/models" "2.15.0"
+
+"@embedpdf/plugin-thumbnail@2.15.0":
+  version "2.15.0"
+  resolved "https://registry.yarnpkg.com/@embedpdf/plugin-thumbnail/-/plugin-thumbnail-2.15.0.tgz#ca68dc15714a5790295eb569507acdb3b59bf9c5"
+  integrity sha512-39EojqobHmvSvk2ejKeh58m43ApGS3cie/sVZP+pkXr6MRogX6+ivMa5GfoqBzh9wdZAZ3l4XTd+RQ4kFZ4aqQ==
+  dependencies:
+    "@embedpdf/models" "2.15.0"
+
+"@embedpdf/plugin-tiling@2.15.0":
+  version "2.15.0"
+  resolved "https://registry.yarnpkg.com/@embedpdf/plugin-tiling/-/plugin-tiling-2.15.0.tgz#7166bb88cd5400db0a609eaea28e7aee443b6c93"
+  integrity sha512-zBjKCToAkL1tYvkIjFCjsbfUzZ0QBPczL3wRy/IdNZ9CQuZrqqqp3xEFrI4Nz2o9XQd9heBlMA9Zo/yieuazqA==
+  dependencies:
+    "@embedpdf/models" "2.15.0"
+
+"@embedpdf/plugin-ui@2.15.0":
+  version "2.15.0"
+  resolved "https://registry.yarnpkg.com/@embedpdf/plugin-ui/-/plugin-ui-2.15.0.tgz#550ee8438fab092672272fb0c49fb7e027c18658"
+  integrity sha512-6aixrGLylfOk7S+TZojxBjXlR7ToZ4OD4td1b/wfuu8Nmtv7RmNnwu2F7h6aLp54VIhjdHCIrgzWUOjWLqSAJw==
+  dependencies:
+    "@embedpdf/models" "2.15.0"
+
+"@embedpdf/plugin-viewport@2.15.0", "@embedpdf/plugin-viewport@^2.15.0":
+  version "2.15.0"
+  resolved "https://registry.yarnpkg.com/@embedpdf/plugin-viewport/-/plugin-viewport-2.15.0.tgz#343c66bd9eaaa373920393fbc0dced17b09ba695"
+  integrity sha512-MXNBQOitr1cAoCoBKwAR3O78eLtHBbIngOkWqgm6EpWTdoYDBVhZlvVcmwmjheZKjMJFnU3sFr98w6Qwix3Cjg==
+  dependencies:
+    "@embedpdf/models" "2.15.0"
+
+"@embedpdf/plugin-zoom@2.15.0", "@embedpdf/plugin-zoom@^2.15.0":
+  version "2.15.0"
+  resolved "https://registry.yarnpkg.com/@embedpdf/plugin-zoom/-/plugin-zoom-2.15.0.tgz#56d430977e472d074a8e95010d212fa4c2f76f0e"
+  integrity sha512-d+YhwqcQNZaaHczVGe4pbaAYQXWO4MEoivcW7jOpE31VnKqEAdjCMye8F0ctcF5OjgbXeb6AKCk4L4fDdLF4mg==
+  dependencies:
+    "@embedpdf/models" "2.15.0"
+
+"@embedpdf/react-pdf-viewer@^2.15.0":
+  version "2.15.0"
+  resolved "https://registry.yarnpkg.com/@embedpdf/react-pdf-viewer/-/react-pdf-viewer-2.15.0.tgz#96013cbed1e219dffeeb48746422d9a2b014d0aa"
+  integrity sha512-Y8X/N9BZAnIChAUP9LkU19erRv0E56AkAmcWDC4vyjuhpLK2qIlMqqv7gApGffXxUEpQay5qMt3K6V2kjZS2/w==
+  dependencies:
+    "@embedpdf/snippet" "2.15.0"
+
+"@embedpdf/snippet@2.15.0":
+  version "2.15.0"
+  resolved "https://registry.yarnpkg.com/@embedpdf/snippet/-/snippet-2.15.0.tgz#c44a23fcdc50f062b05eab0cddc760e7432db998"
+  integrity sha512-oTJBxqCIqCM1SIXSYt7AmzzUO0J9yi9vFFRVzWc4BRDmX/K6Jp98EIwa7WTVQSylbhvOIGEOnOnqm9ZDx+sg0g==
+  dependencies:
+    "@embedpdf/core" "2.15.0"
+    "@embedpdf/engines" "2.15.0"
+    "@embedpdf/models" "2.15.0"
+    "@embedpdf/pdfium" "2.15.0"
+    "@embedpdf/plugin-annotation" "2.15.0"
+    "@embedpdf/plugin-attachment" "2.15.0"
+    "@embedpdf/plugin-bookmark" "2.15.0"
+    "@embedpdf/plugin-capture" "2.15.0"
+    "@embedpdf/plugin-commands" "2.15.0"
+    "@embedpdf/plugin-document-manager" "2.15.0"
+    "@embedpdf/plugin-export" "2.15.0"
+    "@embedpdf/plugin-form" "2.15.0"
+    "@embedpdf/plugin-fullscreen" "2.15.0"
+    "@embedpdf/plugin-history" "2.15.0"
+    "@embedpdf/plugin-i18n" "2.15.0"
+    "@embedpdf/plugin-interaction-manager" "2.15.0"
+    "@embedpdf/plugin-pan" "2.15.0"
+    "@embedpdf/plugin-print" "2.15.0"
+    "@embedpdf/plugin-redaction" "2.15.0"
+    "@embedpdf/plugin-render" "2.15.0"
+    "@embedpdf/plugin-rotate" "2.15.0"
+    "@embedpdf/plugin-scroll" "2.15.0"
+    "@embedpdf/plugin-search" "2.15.0"
+    "@embedpdf/plugin-selection" "2.15.0"
+    "@embedpdf/plugin-signature" "2.15.0"
+    "@embedpdf/plugin-spread" "2.15.0"
+    "@embedpdf/plugin-stamp" "2.15.0"
+    "@embedpdf/plugin-thumbnail" "2.15.0"
+    "@embedpdf/plugin-tiling" "2.15.0"
+    "@embedpdf/plugin-ui" "2.15.0"
+    "@embedpdf/plugin-viewport" "2.15.0"
+    "@embedpdf/plugin-zoom" "2.15.0"
+    preact "^10.17.0"
+    tailwind-merge "^3.4.0"
+
+"@embedpdf/utils@2.15.0":
+  version "2.15.0"
+  resolved "https://registry.yarnpkg.com/@embedpdf/utils/-/utils-2.15.0.tgz#bd7561a76b0117421354c08b15582c1f6791e4f3"
+  integrity sha512-13UEMPpu5XrxmYI/MPiLtJC3R3b1g8ii3zfhQ3g1WpECybnwTuhBgwqaOvqw3rVCKCnXEgNMs4PBCzLyFpZZTw==
+
 "@esbuild/aix-ppc64@0.27.2":
   version "0.27.2"
   resolved "https://registry.yarnpkg.com/@esbuild/aix-ppc64/-/aix-ppc64-0.27.2.tgz#521cbd968dcf362094034947f76fa1b18d2d403c"
@@ -1328,6 +1648,11 @@ postcss@^8.5.6:
     picocolors "^1.1.1"
     source-map-js "^1.2.1"
 
+preact@^10.17.0:
+  version "10.29.8"
+  resolved "https://registry.yarnpkg.com/preact/-/preact-10.29.8.tgz#fc85b82dc2474e245b1430b51781d417361f5fc3"
+  integrity sha512-ej2aVZ+vZ8WO7tvlQWRM9N63A0KzF9q4mWJfDUHgYaIofWY9hu74QdnQrjoPMmZi2/nZ5gN0bJCQF49xQqx09Q==
+
 prelude-ls@^1.2.1:
   version "1.2.1"
   resolved "https://registry.yarnpkg.com/prelude-ls/-/prelude-ls-1.2.1.tgz#debc6489d7a6e6b0e7611888cec880337d316396"
@@ -1611,6 +1936,11 @@ sync-message-port@^1.0.0:
   version "1.1.3"
   resolved "https://registry.yarnpkg.com/sync-message-port/-/sync-message-port-1.1.3.tgz#6055c565ee8c81d2f9ee5aae7db757e6d9088c0c"
   integrity sha512-GTt8rSKje5FilG+wEdfCkOcLL7LWqpMlr2c3LRuKt/YXxcJ52aGSbGBAdI4L3aaqfrBt6y711El53ItyH1NWzg==
+
+tailwind-merge@^3.4.0:
+  version "3.6.0"
+  resolved "https://registry.yarnpkg.com/tailwind-merge/-/tailwind-merge-3.6.0.tgz#88d83242d1dd7bc847223f73dcf210dd1f2ee11c"
+  integrity sha512-uxL7qAVQriqRQPAyK3pj66VqskWqoZ37PW94jwOTwNfq/z9oyu1V+eqrZqtR2+fCiXdYOZe/Modt8GtvqNzu+w==
 
 tinyglobby@^0.2.15:
   version "0.2.15"
