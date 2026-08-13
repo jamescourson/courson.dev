@@ -49,7 +49,7 @@ const Home = () => {
 
       <article id="portal-resume">
         <em>
-          Looking for a competent frontend designer/developer for your next idea? <br />
+          Looking for an experienced developer to join your team? <br />
         </em>
         
         <Link to="/resume" id="resume-link"><b>Take a look at my resume!</b></Link>
